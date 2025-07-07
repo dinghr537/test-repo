@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.12.1">
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/conf/prod/resources/app.properties">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/conf/prod/resources/sys.properties">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/resources/app.properties">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/resources/sys.properties">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/diagram/web/DiagramModel.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/diagram/web/DiagramController.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/diagram/service/Colors.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/diagram/service/DiagramService.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/diagram/service/ArchDiagram.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/diagram/service/ActionDiagram.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/DiagramModule.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/LogProcessorApp.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/kafka/StatMessageHandler.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/kafka/EventMessageHandler.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/kafka/ActionLogMessageHandler.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/job/CleanupOldIndexJob.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/LogForwardConfig.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/LogFilterConfig.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/service/IndexOption.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/service/KibanaService.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/service/JobConfig.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/service/IndexService.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/service/ActionLogForwarder.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/service/EventForwarder.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/domain/StatDocument.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/domain/TraceDocument.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/domain/EventDocument.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/core/log/domain/ActionDocument.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/main/java/Main.java">
+</file>
+</checkstyle>

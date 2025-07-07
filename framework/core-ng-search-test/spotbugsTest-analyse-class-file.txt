@@ -1,0 +1,7 @@
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/classes/java/test/core/framework/search/impl/TestDocument.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/classes/java/test/core/framework/search/impl/ElasticSearchTemplateIntegrationTest.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/classes/java/test/core/framework/search/impl/ElasticSearchIntegrationTest.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/classes/java/test/core/framework/search/impl/TestDocument$TestEnum.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/classes/java/test/core/framework/search/module/TestSearchConfigTest.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/classes/java/test/core/framework/search/TestModule.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/classes/java/test/core/framework/search/IntegrationTest.class

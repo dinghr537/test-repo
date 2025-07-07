@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.json.BeanTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:10" hostname="bottleCapsMBA.local" time="0.044">
+  <properties/>
+  <testcase name="validate()" classname="core.framework.json.BeanTest" time="0.009"/>
+  <testcase name="listField()" classname="core.framework.json.BeanTest" time="0.013"/>
+  <testcase name="registerDuplicateBean()" classname="core.framework.json.BeanTest" time="0.001"/>
+  <testcase name="defaultValue()" classname="core.framework.json.BeanTest" time="0.0"/>
+  <testcase name="dateField()" classname="core.framework.json.BeanTest" time="0.006"/>
+  <testcase name="dateFieldFromJavaScript()" classname="core.framework.json.BeanTest" time="0.002"/>
+  <testcase name="empty()" classname="core.framework.json.BeanTest" time="0.002"/>
+  <testcase name="mapField()" classname="core.framework.json.BeanTest" time="0.002"/>
+  <testcase name="enumField()" classname="core.framework.json.BeanTest" time="0.001"/>
+  <testcase name="childField()" classname="core.framework.json.BeanTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

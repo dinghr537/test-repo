@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.crypto.HashTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:50:58" hostname="bottleCapsMBA.local" time="0.215">
+  <properties/>
+  <testcase name="md5Hex()" classname="core.framework.crypto.HashTest" time="0.208"/>
+  <testcase name="sha256Hex()" classname="core.framework.crypto.HashTest" time="0.002"/>
+  <testcase name="sha512Hex()" classname="core.framework.crypto.HashTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

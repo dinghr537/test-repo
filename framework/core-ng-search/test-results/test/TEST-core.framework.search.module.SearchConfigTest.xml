@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.search.module.SearchConfigTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:40" hostname="bottleCapsMBA.local" time="0.402">
+  <properties/>
+  <testcase name="validate()" classname="core.framework.search.module.SearchConfigTest" time="0.396"/>
+  <testcase name="auth()" classname="core.framework.search.module.SearchConfigTest" time="0.006"/>
+  <system-out><![CDATA[2025-07-02T02:51:40.893177Z [bottleCapsMBA.local] [Test worker] INFO c.f.w.site.WebDirectory - can not locate web directory
+2025-07-02T02:51:41.249720Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/vm, controller=core.framework.internal.web.sys.DiagnosticController.vm
+2025-07-02T02:51:41.251678Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/thread, controller=core.framework.internal.web.sys.DiagnosticController.thread
+2025-07-02T02:51:41.252880Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/heap, controller=core.framework.internal.web.sys.DiagnosticController.heap
+2025-07-02T02:51:41.253622Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/proc, controller=core.framework.internal.web.sys.DiagnosticController.proc
+2025-07-02T02:51:41.255064Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/property, controller=core.framework.internal.web.sys.PropertyController.execute
+2025-07-02T02:51:41.255975Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api, controller=null.execute
+2025-07-02T02:51:41.256949Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api/message, controller=null.execute
+2025-07-02T02:51:41.259527Z [bottleCapsMBA.local] [Test worker] INFO c.f.w.site.WebDirectory - can not locate web directory
+2025-07-02T02:51:41.259728Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/vm, controller=core.framework.internal.web.sys.DiagnosticController.vm
+2025-07-02T02:51:41.261637Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/thread, controller=core.framework.internal.web.sys.DiagnosticController.thread
+2025-07-02T02:51:41.261828Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/heap, controller=core.framework.internal.web.sys.DiagnosticController.heap
+2025-07-02T02:51:41.262056Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/proc, controller=core.framework.internal.web.sys.DiagnosticController.proc
+2025-07-02T02:51:41.262276Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/property, controller=core.framework.internal.web.sys.PropertyController.execute
+2025-07-02T02:51:41.262446Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api, controller=null.execute
+2025-07-02T02:51:41.262578Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api/message, controller=null.execute
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

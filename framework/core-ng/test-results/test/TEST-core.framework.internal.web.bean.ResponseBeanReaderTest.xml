@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.web.bean.ResponseBeanReaderTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:09" hostname="bottleCapsMBA.local" time="0.024">
+  <properties/>
+  <testcase name="fromJSON()" classname="core.framework.internal.web.bean.ResponseBeanReaderTest" time="0.011"/>
+  <testcase name="fromJSONWithOptional()" classname="core.framework.internal.web.bean.ResponseBeanReaderTest" time="0.004"/>
+  <testcase name="register()" classname="core.framework.internal.web.bean.ResponseBeanReaderTest" time="0.002"/>
+  <testcase name="builtinClasses()" classname="core.framework.internal.web.bean.ResponseBeanReaderTest" time="0.001"/>
+  <testcase name="fromJSONWithVoid()" classname="core.framework.internal.web.bean.ResponseBeanReaderTest" time="0.001"/>
+  <testcase name="fromJSONWithValidationError()" classname="core.framework.internal.web.bean.ResponseBeanReaderTest" time="0.001"/>
+  <testcase name="fromJSONWithEmptyOptional()" classname="core.framework.internal.web.bean.ResponseBeanReaderTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.db.RepositoryImplCompositeKeyEntityTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:05" hostname="bottleCapsMBA.local" time="0.013">
+  <properties/>
+  <testcase name="deleteWithInvalidPrimaryKeys()" classname="core.framework.internal.db.RepositoryImplCompositeKeyEntityTest" time="0.001"/>
+  <testcase name="delete()" classname="core.framework.internal.db.RepositoryImplCompositeKeyEntityTest" time="0.001"/>
+  <testcase name="insert()" classname="core.framework.internal.db.RepositoryImplCompositeKeyEntityTest" time="0.003"/>
+  <testcase name="batchDelete()" classname="core.framework.internal.db.RepositoryImplCompositeKeyEntityTest" time="0.001"/>
+  <testcase name="get()" classname="core.framework.internal.db.RepositoryImplCompositeKeyEntityTest" time="0.001"/>
+  <testcase name="partialUpdate()" classname="core.framework.internal.db.RepositoryImplCompositeKeyEntityTest" time="0.004"/>
+  <system-out><![CDATA[2025-07-02T02:51:05.257418Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.db.DatabaseImpl - set database connection url, url=jdbc:hsqldb:mem:.;sql.syntax_mys=true
+2025-07-02T02:51:05.269591Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.db.DatabaseImpl - register db entity, entityClass=core.framework.internal.db.CompositeKeyEntity, elapsed=11656084
+]]></system-out>
+  <system-err><![CDATA[2025-07-02T02:51:05.272020Z [bottleCapsMBA.local] [Test worker] WARN c.f.i.db.RepositoryImpl - [UNEXPECTED_UPDATE_RESULT] row is not deleted, result=0
+]]></system-err>
+</testsuite>

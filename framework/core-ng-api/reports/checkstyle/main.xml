@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.12.1">
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/validate/Size.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/validate/NotBlank.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/validate/Digits.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/validate/Pattern.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/validate/Max.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/validate/Min.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/validate/NotNull.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/web/service/POST.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/web/service/PATCH.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/web/service/PathParam.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/web/service/ResponseStatus.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/web/service/QueryParam.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/web/service/PUT.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/web/service/DELETE.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/web/service/GET.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/web/service/Path.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/json/Property.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-api/src/main/java/core/framework/api/http/HTTPStatus.java">
+</file>
+</checkstyle>

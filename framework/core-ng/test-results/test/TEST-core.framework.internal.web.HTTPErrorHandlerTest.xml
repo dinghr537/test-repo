@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.web.HTTPErrorHandlerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:08" hostname="bottleCapsMBA.local" time="0.009">
+  <properties/>
+  <testcase name="errorResponse()" classname="core.framework.internal.web.HTTPErrorHandlerTest" time="0.004"/>
+  <testcase name="ajaxErrorResponse()" classname="core.framework.internal.web.HTTPErrorHandlerTest" time="0.001"/>
+  <testcase name="errorHTML()" classname="core.framework.internal.web.HTTPErrorHandlerTest" time="0.001"/>
+  <testcase name="httpStatus()" classname="core.framework.internal.web.HTTPErrorHandlerTest" time="0.001"/>
+  <testcase name="errorResponseWithErrorCodeException()" classname="core.framework.internal.web.HTTPErrorHandlerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

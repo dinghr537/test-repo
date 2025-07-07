@@ -1,0 +1,46 @@
+{
+  "_id": {
+    "$oid": "5627b47d54b92d03adb9e9cf"
+  },
+  "int_field": null,
+  "double_field": null,
+  "big_decimal_field": {
+    "$numberDecimal": "12.34"
+  },
+  "long_field": {
+    "$numberLong": "325"
+  },
+  "boolean_field": true,
+  "date_time_field": null,
+  "zoned_date_time_field": {
+    "$date": "2016-09-01T15:00:00Z"
+  },
+  "date_field": "2022-07-06",
+  "string_field": "string",
+  "list_field": [
+    "V1",
+    "V2"
+  ],
+  "map_field": {
+    "K1": "V1",
+    "K2": "V2"
+  },
+  "child": {
+    "boolean_field": null,
+    "enum_field": "I1",
+    "enum_list_field": [
+      "I2"
+    ],
+    "ref_id_field": null
+  },
+  "children": null,
+  "children_map": null,
+  "null_child": null,
+  "enum_map_field": {
+    "I1": "V1"
+  },
+  "map_list_field": {
+    "K1": ["V1"],
+    "K2": ["V2", "V3"]
+  }
+}

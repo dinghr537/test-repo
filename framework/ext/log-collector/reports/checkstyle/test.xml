@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.12.1">
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-collector/src/test/java/core/log/LogCollectorAppTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-collector/src/test/java/core/log/web/EventControllerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-collector/src/test/java/core/log/web/SendEventRequestValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-collector/src/test/java/core/log/TestModule.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-collector/src/test/java/core/log/ConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-collector/src/test/java/core/log/IntegrationTest.java">
+</file>
+</checkstyle>

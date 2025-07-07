@@ -1,0 +1,8 @@
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo-test/classes/java/test/core/framework/mongo/impl/TestMongoView.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo-test/classes/java/test/core/framework/mongo/impl/TestMongoEntity$TestEnum.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo-test/classes/java/test/core/framework/mongo/impl/TestMongoEntity.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo-test/classes/java/test/core/framework/mongo/impl/MongoCollectionIntegrationTest.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo-test/classes/java/test/core/framework/mongo/impl/MongoIntegrationTest.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo-test/classes/java/test/core/framework/mongo/module/TestMongoConfigTest.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo-test/classes/java/test/core/framework/mongo/TestModule.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo-test/classes/java/test/core/framework/mongo/IntegrationTest.class

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.web.service.WebServiceClientTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:10" hostname="bottleCapsMBA.local" time="0.107">
+  <properties/>
+  <testcase name="interceptWithErrorResponse()" classname="core.framework.internal.web.service.WebServiceClientTest" time="0.067"/>
+  <testcase name="validateResponse()" classname="core.framework.internal.web.service.WebServiceClientTest" time="0.002"/>
+  <testcase name="execute()" classname="core.framework.internal.web.service.WebServiceClientTest" time="0.004"/>
+  <testcase name="parseUnsupportedHTTPStatus()" classname="core.framework.internal.web.service.WebServiceClientTest" time="0.003"/>
+  <testcase name="parseHTTPStatus()" classname="core.framework.internal.web.service.WebServiceClientTest" time="0.002"/>
+  <testcase name="validateResponseWithErrorResponse()" classname="core.framework.internal.web.service.WebServiceClientTest" time="0.003"/>
+  <testcase name="validateResponseWithUnexpectedBody()" classname="core.framework.internal.web.service.WebServiceClientTest" time="0.003"/>
+  <testcase name="putRequestBeanWithGet()" classname="core.framework.internal.web.service.WebServiceClientTest" time="0.003"/>
+  <testcase name="validateResponseWith410()" classname="core.framework.internal.web.service.WebServiceClientTest" time="0.003"/>
+  <testcase name="validateResponseWith502()" classname="core.framework.internal.web.service.WebServiceClientTest" time="0.003"/>
+  <testcase name="intercept()" classname="core.framework.internal.web.service.WebServiceClientTest" time="0.004"/>
+  <testcase name="validateResponseWithEmptyBody()" classname="core.framework.internal.web.service.WebServiceClientTest" time="0.003"/>
+  <testcase name="putRequestBeanWithPost()" classname="core.framework.internal.web.service.WebServiceClientTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

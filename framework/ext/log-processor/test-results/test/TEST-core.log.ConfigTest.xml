@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.log.ConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-06T08:06:34" hostname="bottleCapsMBA.local" time="0.022">
+  <properties/>
+  <testcase name="conf()" classname="core.log.ConfigTest" time="0.022"/>
+  <system-out><![CDATA[2025-07-06T08:06:26.432113Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.log.LogManager - not found -Dcore.appName, this should only happen in local dev env or test, use "local" as appName
+2025-07-06T08:06:26.446922Z [bottleCapsMBA.local] [Test worker] INFO c.f.t.module.AbstractTestModule - initialize test context
+2025-07-06T08:06:26.484152Z [bottleCapsMBA.local] [Test worker] INFO c.f.w.site.WebDirectory - found local web directory, this should only happen in local dev env or test, path=./src/main/dist/web
+2025-07-06T08:06:27.078683Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/vm, controller=core.framework.internal.web.sys.DiagnosticController.vm
+2025-07-06T08:06:27.079378Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/thread, controller=core.framework.internal.web.sys.DiagnosticController.thread
+2025-07-06T08:06:27.079955Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/heap, controller=core.framework.internal.web.sys.DiagnosticController.heap
+2025-07-06T08:06:27.080600Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/proc, controller=core.framework.internal.web.sys.DiagnosticController.proc
+2025-07-06T08:06:27.082120Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/property, controller=core.framework.internal.web.sys.PropertyController.execute
+2025-07-06T08:06:27.083272Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api, controller=null.execute
+2025-07-06T08:06:27.083775Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api/message, controller=null.execute
+2025-07-06T08:06:27.084083Z [bottleCapsMBA.local] [Test worker] INFO c.f.t.module.AbstractTestModule - initialize application
+2025-07-06T08:06:27.085732Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.Module - load module, module=core.LogProcessorApp
+2025-07-06T08:06:27.085856Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.Module - load properties, classpath=sys.properties
+2025-07-06T08:06:27.086356Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.Module - load properties, classpath=app.properties
+2025-07-06T08:06:27.654596Z [bottleCapsMBA.local] [Test worker] INFO o.e.n.Node - version[8.9.0], pid[13491], build[unknown/8aa461beb06aa0417a231c345a1b8c38fb498a0d/2023-07-19T14:43:58.555259655Z], OS[Mac OS X/15.5/aarch64], JVM[Azul Systems, Inc./OpenJDK 64-Bit Server VM/17.0.15/17.0.15+6-LTS]
+2025-07-06T08:06:27.655119Z [bottleCapsMBA.local] [Test worker] INFO o.e.n.Node - JVM home [/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home], using bundled JDK [false]
+2025-07-06T08:06:27.655335Z [bottleCapsMBA.local] [Test worker] INFO o.e.n.Node - JVM arguments [-Dorg.gradle.internal.worker.tmpdir=/Users/bottlecap/twirlista/core-ng-project/build/ext/log-processor/tmp/test/work, -Dorg.gradle.native=false, -javaagent:/Users/bottlecap/twirlista/core-ng-project/build/ext/log-processor/tmp/.cache/expanded/zip_a33b649e552c51298e5a242c2f0d0e3c/jacocoagent.jar=destfile=../../build/ext/log-processor/jacoco/test.exec,append=true,inclnolocationclasses=false,dumponexit=true,output=file,jmx=false, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=CA, -Duser.language=en, -Duser.variant, -ea]
+2025-07-06T08:06:30.748123Z [bottleCapsMBA.local] [Test worker] INFO o.e.e.NodeEnvironment - using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk3s5)]], net usable_space [53.3gb], net total_space [460.4gb], types [apfs]
+2025-07-06T08:06:30.748294Z [bottleCapsMBA.local] [Test worker] INFO o.e.e.NodeEnvironment - heap size [512mb], compressed ordinary object pointers [true]
+2025-07-06T08:06:30.760673Z [bottleCapsMBA.local] [Test worker] INFO o.e.n.Node - node name [test], node ID [yClsL06NRtCThLqlL7ApoA], cluster name [test], roles [ingest, data_frozen, ml, data_hot, transform, data_content, data_warm, master, remote_cluster_client, data, data_cold]
+2025-07-06T08:06:31.800510Z [bottleCapsMBA.local] [Test worker] INFO o.e.t.netty4.NettyAllocator - creating NettyAllocator with the following configs: [name=unpooled, suggested_max_allocation_size=256kb, factors={es.unsafe.use_unpooled_allocator=null, g1gc_enabled=true, g1gc_region_size=1mb, heap_size=512mb}]
+2025-07-06T08:06:31.824456Z [bottleCapsMBA.local] [Test worker] INFO o.e.i.recovery.RecoverySettings - using rate limit [40mb] with [default=40mb, read=0b, write=0b, max=0b]
+2025-07-06T08:06:31.867890Z [bottleCapsMBA.local] [Test worker] INFO o.e.d.DiscoveryModule - using discovery type [single-node] and seed hosts providers [settings]
+2025-07-06T08:06:32.243996Z [bottleCapsMBA.local] [Test worker] INFO o.e.n.Node - initialized
+2025-07-06T08:06:32.244147Z [bottleCapsMBA.local] [Test worker] INFO o.e.n.Node - starting ...
+2025-07-06T08:06:32.319040Z [bottleCapsMBA.local] [Test worker] INFO o.e.t.TransportService - publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+2025-07-06T08:06:32.533908Z [bottleCapsMBA.local] [Test worker] INFO o.e.c.coordination.ClusterBootstrapService - this node has not joined a bootstrapped cluster yet; [cluster.initial_master_nodes] is set to [test]
+2025-07-06T08:06:32.537291Z [bottleCapsMBA.local] [Test worker] INFO o.e.c.coordination.Coordinator - setting initial configuration to VotingConfiguration{yClsL06NRtCThLqlL7ApoA}
+2025-07-06T08:06:32.751114Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.service.MasterService - elected-as-master ([1] nodes joined in term 1)[_FINISH_ELECTION_, {test}{yClsL06NRtCThLqlL7ApoA}{HdJPZse4RNa2gKm0AQ7D5A}{test}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{8.9.0} completing election], term: 1, version: 1, delta: master node changed {previous [], current [{test}{yClsL06NRtCThLqlL7ApoA}{HdJPZse4RNa2gKm0AQ7D5A}{test}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{8.9.0}]}
+2025-07-06T08:06:32.785989Z [bottleCapsMBA.local] [elasticsearch[test][cluster_coordination][T#1]] INFO o.e.c.coordination.CoordinationState - cluster UUID set to [rtOvkVk-RDK7XPxrnWckdg]
+2025-07-06T08:06:32.807177Z [bottleCapsMBA.local] [elasticsearch[test][clusterApplierService#updateTask][T#1]] INFO o.e.c.service.ClusterApplierService - master node changed {previous [], current [{test}{yClsL06NRtCThLqlL7ApoA}{HdJPZse4RNa2gKm0AQ7D5A}{test}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{8.9.0}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+2025-07-06T08:06:32.851245Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.coordination.NodeJoinExecutor - node-join: [{test}{yClsL06NRtCThLqlL7ApoA}{HdJPZse4RNa2gKm0AQ7D5A}{test}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{8.9.0}] with reason [completing election]
+2025-07-06T08:06:32.855233Z [bottleCapsMBA.local] [Test worker] INFO o.e.h.AbstractHttpServerTransport - publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+2025-07-06T08:06:32.855420Z [bottleCapsMBA.local] [Test worker] INFO o.e.n.Node - started {test}{yClsL06NRtCThLqlL7ApoA}{HdJPZse4RNa2gKm0AQ7D5A}{test}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{8.9.0}
+2025-07-06T08:06:32.858837Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.LocalElasticSearch - create local elasticsearch node, dataPath=/var/folders/4z/jg7yjp515zb48mnj6gtdkhxc0000gn/T/dd3a942c-0411-4195-b73a-2c09de205bb4, elapsed=5365213583
+2025-07-06T08:06:32.867427Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - register elasticsearch type, documentClass=core.log.domain.ActionDocument, elapsed=5398625
+2025-07-06T08:06:32.868545Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - register elasticsearch type, documentClass=core.log.domain.TraceDocument, elapsed=225333
+2025-07-06T08:06:32.869482Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - register elasticsearch type, documentClass=core.log.domain.StatDocument, elapsed=853792
+2025-07-06T08:06:32.869802Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - register elasticsearch type, documentClass=core.log.domain.EventDocument, elapsed=239542
+2025-07-06T08:06:32.888986Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.g.GatewayService - recovered [0] indices into cluster_state
+2025-07-06T08:06:32.911768Z [bottleCapsMBA.local] [elasticsearch[test][management][T#1]] INFO o.e.h.n.selection.HealthNodeTaskExecutor - Node [{test}{yClsL06NRtCThLqlL7ApoA}] is selected as the current health node.
+2025-07-06T08:06:33.000171Z [bottleCapsMBA.local] [Test worker] INFO c.f.h.HTTPClientBuilder - create http client, elapsed=127366459
+2025-07-06T08:06:33.000845Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.module.PropertyManager - found overridden property by system property -Dapp.log.forward.config, key=app.log.forward.config, value={
+  "kafkaURI": "kafka-0.kafka:9092",
+  "action": {
+    "topic": "action",
+    "apps": ["website", "mobile-api"],
+    "ignoreErrorCodes": ["PATH_NOT_FOUND"]
+  },
+  "event": {
+    "topic": "event",
+    "apps": ["website"]
+  }
+}
+
+2025-07-06T08:06:33.120185Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.KafkaConfig - publish, topic=action, messageClass=core.framework.log.message.ActionLogMessage, name=forward
+2025-07-06T08:06:33.706133Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.KafkaConfig - publish, topic=event, messageClass=core.framework.log.message.EventMessage, name=forward
+2025-07-06T08:06:33.728199Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=POST, path=/_sys/kafka/topic/:topic/key/:key/handle, controller=core.framework.internal.web.sys.KafkaController.handle
+2025-07-06T08:06:33.732350Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.KafkaConfig - subscribe, topic=action-log-v2, messageClass=core.framework.log.message.ActionLogMessage, handlerClass=core.log.kafka.ActionLogMessageHandler, name=null
+2025-07-06T08:06:33.769001Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.KafkaConfig - subscribe, topic=stat, messageClass=core.framework.log.message.StatMessage, handlerClass=core.log.kafka.StatMessageHandler, name=null
+2025-07-06T08:06:33.774418Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.KafkaConfig - subscribe, topic=event, messageClass=core.framework.log.message.EventMessage, handlerClass=core.log.kafka.EventMessageHandler, name=null
+2025-07-06T08:06:33.784505Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/job, controller=core.framework.internal.web.sys.SchedulerController.jobs
+2025-07-06T08:06:33.784896Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=POST, path=/_sys/job/:job, controller=core.framework.internal.web.sys.SchedulerController.triggerJob
+2025-07-06T08:06:33.789018Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.Module - load module, module=core.DiagramModule
+2025-07-06T08:06:33.827426Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.TemplateManager - add, templatePath=/template/diagram.html, modelClass=core.diagram.web.DiagramModel, elapsed=35141417
+2025-07-06T08:06:33.829215Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/diagram/arch, controller=core.diagram.web.DiagramController.arch
+2025-07-06T08:06:33.829560Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/diagram/action, controller=core.diagram.web.DiagramController.action
+2025-07-06T08:06:34.579333Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.metadata.MetadataIndexTemplateService - adding index template [action] for index patterns [action-*]
+2025-07-06T08:06:34.643494Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - put index template, name=action, source={
+  "index_patterns": ["action-*"],
+  "priority": 1,
+  "template": {
+    "settings": {
+      "number_of_shards": "1",
+      "refresh_interval": "10s"
+    },
+    "mappings": {
+      "dynamic_templates": [
+        {
+          "context": {
+            "path_match": "context.*",
+            "match_mapping_type": "string",
+            "mapping": {
+              "type": "keyword"
+            }
+          }
+        },
+        {
+          "stats": {
+            "path_match": "stats.*",
+            "mapping": {
+              "type": "scaled_float",
+              "scaling_factor": 1000
+            }
+          }
+        },
+        {
+          "perf_stats.count": {
+            "path_match": "perf_stats.*.count",
+            "mapping": {
+              "type": "integer"
+            }
+          }
+        },
+        {
+          "perf_stats.total_elapsed": {
+            "path_match": "perf_stats.*.total_elapsed",
+            "mapping": {
+              "type": "long"
+            }
+          }
+        },
+        {
+          "perf_stats.read_entries": {
+            "path_match": "perf_stats.*.read_entries",
+            "mapping": {
+              "type": "integer"
+            }
+          }
+        },
+        {
+          "perf_stats.write_entries": {
+            "path_match": "perf_stats.*.write_entries",
+            "mapping": {
+              "type": "integer"
+            }
+          }
+        }
+      ],
+      "properties": {
+        "@timestamp": {
+          "type": "date",
+          "format": "strict_date_optional_time"
+        },
+        "id": {
+          "type": "keyword"
+        },
+        "app": {
+          "type": "keyword"
+        },
+        "host": {
+          "type": "keyword"
+        },
+        "result": {
+          "type": "keyword"
+        },
+        "correlation_id": {
+          "type": "keyword"
+        },
+        "ref_id": {
+          "type": "keyword"
+        },
+        "client": {
+          "type": "keyword"
+        },
+        "action": {
+          "type": "keyword"
+        },
+        "error_code": {
+          "type": "keyword"
+        },
+        "error_message": {
+          "type": "text",
+          "index": "false"
+        },
+        "elapsed": {
+          "type": "long"
+        }
+      }
+    }
+  }
+}
+, elapsed=543936625
+2025-07-06T08:06:34.654908Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.metadata.MetadataIndexTemplateService - adding index template [trace] for index patterns [trace-*]
+2025-07-06T08:06:34.676685Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - put index template, name=trace, source={
+  "index_patterns": ["trace-*"],
+  "priority": 1,
+  "template": {
+    "settings": {
+      "number_of_shards": "1",
+      "refresh_interval": "10s"
+    },
+    "mappings": {
+      "properties": {
+        "@timestamp": {
+          "type": "date",
+          "format": "strict_date_optional_time"
+        },
+        "app": {
+          "type": "keyword"
+        },
+        "result": {
+          "type": "keyword"
+        },
+        "action": {
+          "type": "keyword"
+        },
+        "error_code": {
+          "type": "keyword"
+        },
+        "content": {
+          "type": "text",
+          "index": "false"
+        }
+      }
+    }
+  }
+}
+, elapsed=31384209
+2025-07-06T08:06:34.687222Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.metadata.MetadataIndexTemplateService - adding index template [stat] for index patterns [stat-*]
+2025-07-06T08:06:34.711509Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - put index template, name=stat, source={
+  "index_patterns": ["stat-*"],
+  "priority": 1,
+  "template": {
+    "settings": {
+      "number_of_shards": "1",
+      "refresh_interval": "10s"
+    },
+    "mappings": {
+      "dynamic_templates": [
+        {
+          "stats": {
+            "path_match": "stats.*",
+            "mapping": {
+              "type": "scaled_float",
+              "scaling_factor": 1000
+            }
+          }
+        },
+        {
+          "info": {
+            "path_match": "info.*",
+            "mapping": {
+              "type": "text",
+              "index": "false"
+            }
+          }
+        }
+      ],
+      "properties": {
+        "@timestamp": {
+          "type": "date",
+          "format": "strict_date_optional_time"
+        },
+        "app": {
+          "type": "keyword"
+        },
+        "host": {
+          "type": "keyword"
+        },
+        "result": {
+          "type": "keyword"
+        },
+        "error_code": {
+          "type": "keyword"
+        },
+        "error_message": {
+          "type": "text",
+          "index": "false"
+        }
+      }
+    }
+  }
+}
+, elapsed=33900084
+2025-07-06T08:06:34.721520Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.metadata.MetadataIndexTemplateService - adding index template [event] for index patterns [event-*]
+2025-07-06T08:06:34.743521Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - put index template, name=event, source={
+  "index_patterns": ["event-*"],
+  "priority": 1,
+  "template": {
+    "settings": {
+      "number_of_shards": "1",
+      "refresh_interval": "10s"
+    },
+    "mappings": {
+      "dynamic_templates": [
+        {
+          "context": {
+            "path_match": "context.*",
+            "mapping": {
+              "type": "keyword"
+            }
+          }
+        },
+        {
+          "stats": {
+            "path_match": "stats.*",
+            "mapping": {
+              "type": "scaled_float",
+              "scaling_factor": 1000
+            }
+          }
+        },
+        {
+          "info": {
+            "path_match": "info.*",
+            "mapping": {
+              "type": "text",
+              "index": "false"
+            }
+          }
+        }
+      ],
+      "properties": {
+        "@timestamp": {
+          "type": "date",
+          "format": "strict_date_optional_time"
+        },
+        "app": {
+          "type": "keyword"
+        },
+        "received_time": {
+          "type": "date",
+          "format": "strict_date_optional_time"
+        },
+        "result": {
+          "type": "keyword"
+        },
+        "action": {
+          "type": "keyword"
+        },
+        "error_code": {
+          "type": "keyword"
+        },
+        "error_message": {
+          "type": "text",
+          "index": "false"
+        },
+        "elapsed": {
+          "type": "long"
+        }
+      }
+    }
+  }
+}
+, elapsed=30961000
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

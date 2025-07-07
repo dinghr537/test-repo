@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.http.RetryInterceptorTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:06" hostname="bottleCapsMBA.local" time="0.021">
+  <properties/>
+  <testcase name="shouldRetryWithConnectionRefused()" classname="core.framework.internal.http.RetryInterceptorTest" time="0.0"/>
+  <testcase name="shouldRetryWithReadTimeout()" classname="core.framework.internal.http.RetryInterceptorTest" time="0.001"/>
+  <testcase name="shouldRetryWithCallTimeout()" classname="core.framework.internal.http.RetryInterceptorTest" time="0.001"/>
+  <testcase name="shouldRetryWithConnectionReset()" classname="core.framework.internal.http.RetryInterceptorTest" time="0.005"/>
+  <testcase name="shouldRetryWithServiceUnavailable()" classname="core.framework.internal.http.RetryInterceptorTest" time="0.002"/>
+  <testcase name="uri()" classname="core.framework.internal.http.RetryInterceptorTest" time="0.001"/>
+  <testcase name="shouldRetryWithConnectionFailure()" classname="core.framework.internal.http.RetryInterceptorTest" time="0.003"/>
+  <testcase name="shouldRetryWithBrokenWrite()" classname="core.framework.internal.http.RetryInterceptorTest" time="0.0"/>
+  <testcase name="withinMaxProcessTime()" classname="core.framework.internal.http.RetryInterceptorTest" time="0.0"/>
+  <testcase name="shouldRetryWithTooManyRequest()" classname="core.framework.internal.http.RetryInterceptorTest" time="0.0"/>
+  <testcase name="shouldRetryWithUnknownHost()" classname="core.framework.internal.http.RetryInterceptorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

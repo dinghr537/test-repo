@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.web.request.ClientIPParserTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:09" hostname="bottleCapsMBA.local" time="0.002">
+  <properties/>
+  <testcase name="illegalXForwardedFor()" classname="core.framework.internal.web.request.ClientIPParserTest" time="0.0"/>
+  <testcase name="withoutProxy()" classname="core.framework.internal.web.request.ClientIPParserTest" time="0.001"/>
+  <testcase name="hasMoreThanMaxForwardedIPs()" classname="core.framework.internal.web.request.ClientIPParserTest" time="0.0"/>
+  <testcase name="extractIP()" classname="core.framework.internal.web.request.ClientIPParserTest" time="0.001"/>
+  <testcase name="exceedMaxForwardedIPs()" classname="core.framework.internal.web.request.ClientIPParserTest" time="0.0"/>
+  <testcase name="withProxy()" classname="core.framework.internal.web.request.ClientIPParserTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.log.ActionLogTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:07" hostname="bottleCapsMBA.local" time="0.016">
+  <properties/>
+  <testcase name="flushTraceLog()" classname="core.framework.internal.log.ActionLogTest" time="0.0"/>
+  <testcase name="flushTraceLogWithWarning()" classname="core.framework.internal.log.ActionLogTest" time="0.0"/>
+  <testcase name="tooManyContextValues()" classname="core.framework.internal.log.ActionLogTest" time="0.006"/>
+  <testcase name="result()" classname="core.framework.internal.log.ActionLogTest" time="0.001"/>
+  <testcase name="stat()" classname="core.framework.internal.log.ActionLogTest" time="0.004"/>
+  <testcase name="contextValueIsTooLong()" classname="core.framework.internal.log.ActionLogTest" time="0.001"/>
+  <testcase name="trace()" classname="core.framework.internal.log.ActionLogTest" time="0.0"/>
+  <testcase name="track()" classname="core.framework.internal.log.ActionLogTest" time="0.0"/>
+  <testcase name="multipleContextValues()" classname="core.framework.internal.log.ActionLogTest" time="0.0"/>
+  <testcase name="errorCode()" classname="core.framework.internal.log.ActionLogTest" time="0.0"/>
+  <testcase name="truncateErrorMessage()" classname="core.framework.internal.log.ActionLogTest" time="0.0"/>
+  <testcase name="flushTraceLogWithTrace()" classname="core.framework.internal.log.ActionLogTest" time="0.0"/>
+  <testcase name="correlationIds()" classname="core.framework.internal.log.ActionLogTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.12.1">
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/test/resources/migration-test/sys.properties">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/test/java/core/framework/mongo/impl/EntityDecoderBuilderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/test/java/core/framework/mongo/impl/TestEnum.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/test/java/core/framework/mongo/impl/TestView.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/test/java/core/framework/mongo/impl/TestChildEntity.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/test/java/core/framework/mongo/impl/MongoConnectionPoolMetricsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/test/java/core/framework/mongo/impl/MongoClassValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/test/java/core/framework/mongo/impl/LocalDateCodecTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/test/java/core/framework/mongo/impl/BsonLogParamTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/test/java/core/framework/mongo/impl/TestEntity.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/test/java/core/framework/mongo/impl/EntityEncoderBuilderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/test/java/core/framework/mongo/impl/EntityCodecTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/test/java/core/framework/mongo/impl/EntityIdHandlerBuilderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/test/java/core/framework/mongo/module/MongoConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/test/java/core/framework/mongo/MongoMigrationTest.java">
+</file>
+</checkstyle>

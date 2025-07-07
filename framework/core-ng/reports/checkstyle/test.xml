@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.12.1">
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/resources/message-test/messages_en_US.properties">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/resources/message-test/messages_en.properties">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/resources/message-test/messages.properties">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/crypto/HashTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/crypto/HMACTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/util/PropertiesTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/util/TypesTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/util/StringsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/util/FilesTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/util/ClasspathResourcesTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/util/SetsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/util/ExceptionsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/util/NetworkTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/util/RandomsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/util/ASCIITest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/util/EncodingsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/util/ThreadsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/web/site/WebDirectoryTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/web/CookieSpecTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/web/exception/ForbiddenExceptionTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/web/exception/ConflictExceptionTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/web/exception/UnauthorizedExceptionTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/SchedulerConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/WebSocketConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/IPv4RangeFileParserTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/KafkaConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/DBConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/AccessConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/HTTPConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/CacheConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/LogConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/ExecutorConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/APIClientConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/SystemModuleTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/IPv4RangePropertyValueParserTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/LimitRateConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/RedisConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/AppTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/APIConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/module/SiteConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/template/HTMLTemplateEngineTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/validate/BeanValidatorDigitsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/validate/BeanValidatorStringLengthTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/validate/ValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/validate/BeanValidatorPatternTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/validate/BeanValidatorSizeTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/validate/ClassValidatorSupportTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/validate/type/ClassValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/validate/ValidationErrorsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/validate/BeanValidatorBuilderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/validate/BeanValidatorNotBlankTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/validate/BeanValidatorNotNullTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/validate/BeanValidatorMinMaxTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/asm/LiteralTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/asm/CodeBuilderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/cache/TestCache.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/cache/CacheImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/cache/LocalCacheMetricsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/cache/LocalCacheStoreTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/cache/RedisCacheStoreTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/cache/CacheClassValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/util/LRUMapTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/inject/BeanFactoryTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/inject/KeyTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/inject/InjectValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/redis/RedisSortedSetOperationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/redis/RedisSetOperationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/redis/RedisHashOperationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/redis/AbstractRedisOperationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/redis/ProtocolTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/redis/RedisListOperationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/redis/RedisImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/redis/RedisInputStreamTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/redis/RedisOutputStreamTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/redis/RedisEncodingsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/redis/RedisAdminImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/redis/RedisAdminOperationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/redis/RedisOperationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/redis/RedisHostTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/redis/RedisHyperLogLogOperationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/websocket/ChannelHandlerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/websocket/TestWebSocketMessage.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/websocket/WebSocketContextImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/websocket/ChannelImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/websocket/TestChannelListener.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/websocket/ReadOnlySessionTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/websocket/WebSocketHandlerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/websocket/WebSocketCloseCodesTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/response/ByteArrayBodyTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/response/ResponseHandlerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/response/BeanBodyTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/response/ResponseImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/response/FileBodyTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/route/PathTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/route/PathNodeTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/route/PathPatternValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/bean/QueryParamReaderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/bean/QueryParamWriterTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/bean/QueryParamClassValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/bean/QueryParamHelperTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/bean/TestQueryParamBean.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/bean/ResponseBeanWriterTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/bean/RequestBeanWriterTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/bean/RequestBeanReaderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/bean/ResponseBeanReaderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/controller/ControllerInspectorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/controller/InvocationImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/controller/WebContextImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/sys/CacheControllerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/sys/PropertyControllerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/sys/APIControllerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/sys/DiagnosticControllerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/sys/KafkaControllerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/HTTPIOHandlerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/http/RateControlTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/http/IPv4RangesTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/http/IPv4AccessControlTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/HTTPHostTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/ShutdownHandlerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/site/MimeTypesTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/site/WebSecurityInterceptorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/site/MessageImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/site/MessageImplMultiLanguageTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/site/StaticDirectoryControllerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/GZipPredicateTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/HTTPHandlerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/api/APIDefinitionBuilderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/api/MessageAPIDefinitionBuilderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/SSLContextBuilderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/request/RequestImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/request/ClientIPParserTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/request/HeaderLogParamTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/request/RequestParserTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/request/PathParamsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/HTTPErrorHandlerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/service/WebServiceImplValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/service/WebServiceClientLinkContextTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/service/WebServiceClientBuilderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/service/PathParamHelperTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/service/WebServiceControllerBuilderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/service/WebServiceInterfaceValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/service/WebServiceClientTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/service/TestWebServiceClientInterceptor.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/service/TestWebService.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/session/RedisSessionStoreTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/session/LocalSessionStoreTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/session/SessionImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/web/session/SessionManagerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/bean/BeanClassValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/bean/TestBean.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/bean/BeanClassNameValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/module/StartupHookTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/module/PropertyManagerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/module/ModuleContextTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/module/ShutdownHookTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/module/ReadinessProbeTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/module/PropertyValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/reflect/MethodsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/reflect/ClassesTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/async/ExecutorImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/async/CallableTaskTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/async/CachedThreadPoolTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/async/ExecutorTaskTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/template/HTMLTemplateTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/template/parser/HTMLParserTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/template/TestModel.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/template/fragment/TextContentFragmentTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/template/fragment/URLFragmentTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/template/ModelClassValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/template/CDNManagerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/template/expression/ExpressionTranslatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/template/expression/ExpressionBuilderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/template/expression/ExpressionParserTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/template/TestChildModel.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/scheduler/SchedulerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/scheduler/HourlyTriggerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/scheduler/DailyTriggerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/scheduler/FixedRateTaskTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/scheduler/WeeklyTriggerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/scheduler/MonthlyTriggerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/scheduler/TriggerTaskTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/stat/StatCollectorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/stat/GCStatTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/stat/StatsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/stat/DiagnosticTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/http/HTTPClientImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/http/HTTPEventListenerFactoryTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/http/CookieManagerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/http/HTTPRequestHelperTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/http/RetryInterceptorInterceptTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/http/ServiceUnavailableInterceptorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/http/TimeoutInterceptorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/http/FallbackDNSCacheTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/http/RetryInterceptorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/http/BodyLogParamTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/kafka/MessageListenerThreadTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/kafka/TestMessage.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/kafka/KafkaURITest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/kafka/ConsumerMetricsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/kafka/MessagePublisherImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/kafka/ProducerMetricsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/kafka/MessageProducerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/kafka/MessageListenerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/SQLBatchParamsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/DBEnumMapperTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/JSONEntity.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/DatabaseClassValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/ConnectionsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/RepositoryImplAutoIncrementIdEntityTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/TestEnum.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/RepositoryImplAssignedIdEntityTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/AutoIncrementIdEntity.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/RepositoryImplCompositeKeyEntityTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/MySQLQueryInterceptorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/SQLParamsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/CompositeKeyEntity.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/AssignedIdEntity.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/UpdateQueryBuilderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/RowMapperBuilderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/SelectQueryTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/cloud/GCloudAuthProviderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/InsertQueryBuilderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/EntityView.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/db/DatabaseImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/appender/KafkaAppenderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/appender/ConsoleAppenderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/LoggerImplTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/TraceTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/CollectStatTaskTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/LogEventTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/AbstractLoggerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/ActionLogTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/IdGeneratorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/LogManagerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/WarningContextTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/PerformanceStatTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/DefaultLoggerServiceProviderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/filter/FieldMapLogParamTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/filter/BytesMapLogParamTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/filter/LogFilterTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/filter/ArrayLogParamTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/filter/FieldLogParamTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/filter/BytesLogParamTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/log/ActionLogMessageFactoryTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/resource/PoolTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/resource/PoolMetricsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/internal/resource/TestPoolResource.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/json/TestBean.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/json/JSONTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/json/BeanTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/http/ContentTypeTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/http/HTTPResponseTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/http/HTTPClientBuilderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/http/HTTPRequestTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/db/QueryTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/db/UncheckedSQLExceptionTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/log/ActionLogContextTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/log/message/ActionLogMessageTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng/src/test/java/core/framework/log/MarkersTest.java">
+</file>
+</checkstyle>

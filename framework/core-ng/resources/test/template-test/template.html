@@ -1,0 +1,58 @@
+<!doctype html>
+<html xmlns:c="http://www.w3.org/1999/xhtml" xmlns:m="http://www.w3.org/1999/xhtml">
+<head>
+    <title>template test</title>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <link href="data:;base64,=" rel="icon">
+</head>
+<body>
+<div>
+    <p>field access</p>
+
+    <p c:text="stringField"></p>
+
+    <p c:text="numberField"></p>
+
+    <p c:text="addToNumberField()"></p>
+
+    <p c:text="appendToStringField('postfix')"></p>
+
+    <div c:html="htmlField"></div>
+</div>
+
+<div>
+    <p>loop test</p>
+    <ul>
+        <li c:for="x:items" c:text="x"></li>
+    </ul>
+    <ul>
+        <li c:for="child:children" c:if="child.booleanField" c:text="child.stringField"></li>
+    </ul>
+</div>
+
+<div>
+    <p>condition test</p>
+    <span c:if="booleanMethod()" c:text="'true'"></span>
+</div>
+
+<div>
+    <p>html tag</p>
+    <a c:href="url()">test</a>
+    <meta name="og:image" c:html:content="urlContent()">
+    <input type="text" name="username" required>
+</div>
+
+<div>
+    <p>message</p>
+    <input m:placeholder="placeholder">
+    <p m:text="message"></p>
+</div>
+
+<template id="template">
+    <p>template</p>
+    <p m:text="message"></p>
+</template>
+
+<div c:include="template-test/footer.html"></div>
+</body>
+</html>

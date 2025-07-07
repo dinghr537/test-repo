@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.kafka.MessageListenerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:06" hostname="bottleCapsMBA.local" time="0.28">
+  <properties/>
+  <testcase name="createConsumer()" classname="core.framework.internal.kafka.MessageListenerTest" time="0.28"/>
+  <testcase name="listenerThreadName()" classname="core.framework.internal.kafka.MessageListenerTest" time="0.0"/>
+  <system-out><![CDATA[2025-07-02T02:51:06.530995Z [bottleCapsMBA.local] [Test worker] INFO o.a.k.c.c.internals.ConsumerCoordinator - [Consumer clientId=bottleCapsMBA.local-1, groupId=local] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-07-02T02:51:06.531120Z [bottleCapsMBA.local] [Test worker] INFO o.a.k.c.c.internals.ConsumerCoordinator - [Consumer clientId=bottleCapsMBA.local-1, groupId=local] Request joining group due to: consumer pro-actively leaving the group
+2025-07-02T02:51:06.531169Z [bottleCapsMBA.local] [Test worker] INFO o.a.k.c.consumer.KafkaConsumer - [Consumer clientId=bottleCapsMBA.local-1, groupId=local] Unsubscribed all topics or patterns and assigned partitions
+2025-07-02T02:51:06.531210Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.kafka.MessageListener - create kafka consumer, topics=[], name=null, elapsed=277906583
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

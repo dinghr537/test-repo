@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - APIConfigTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>APIConfigTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/core.framework.module.html">core.framework.module</a> &gt; APIConfigTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.016s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">client()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">clientWithCustomHTTPClint()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">service()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2025-07-02T02:51:10.869683Z [bottleCapsMBA.local] [Test worker] INFO c.f.w.site.WebDirectory - can not locate web directory
+2025-07-02T02:51:10.869846Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/vm, controller=core.framework.internal.web.sys.DiagnosticController.vm
+2025-07-02T02:51:10.869918Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/thread, controller=core.framework.internal.web.sys.DiagnosticController.thread
+2025-07-02T02:51:10.869965Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/heap, controller=core.framework.internal.web.sys.DiagnosticController.heap
+2025-07-02T02:51:10.870010Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/proc, controller=core.framework.internal.web.sys.DiagnosticController.proc
+2025-07-02T02:51:10.870052Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/property, controller=core.framework.internal.web.sys.PropertyController.execute
+2025-07-02T02:51:10.870084Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api, controller=null.execute
+2025-07-02T02:51:10.870117Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api/message, controller=null.execute
+2025-07-02T02:51:10.870392Z [bottleCapsMBA.local] [Test worker] INFO c.f.h.HTTPClientBuilder - create http client, elapsed=192500
+2025-07-02T02:51:10.870762Z [bottleCapsMBA.local] [Test worker] INFO c.f.h.HTTPClientBuilder - create http client, elapsed=278084
+2025-07-02T02:51:10.870817Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.APIConfig - create web service client, interface=core.framework.module.APIConfigTest.TestWebService, serviceURL=http://localhost
+2025-07-02T02:51:10.878101Z [bottleCapsMBA.local] [Test worker] INFO c.f.w.site.WebDirectory - can not locate web directory
+2025-07-02T02:51:10.878513Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/vm, controller=core.framework.internal.web.sys.DiagnosticController.vm
+2025-07-02T02:51:10.878727Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/thread, controller=core.framework.internal.web.sys.DiagnosticController.thread
+2025-07-02T02:51:10.878864Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/heap, controller=core.framework.internal.web.sys.DiagnosticController.heap
+2025-07-02T02:51:10.878920Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/proc, controller=core.framework.internal.web.sys.DiagnosticController.proc
+2025-07-02T02:51:10.878974Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/property, controller=core.framework.internal.web.sys.PropertyController.execute
+2025-07-02T02:51:10.879023Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api, controller=null.execute
+2025-07-02T02:51:10.879068Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api/message, controller=null.execute
+2025-07-02T02:51:10.879254Z [bottleCapsMBA.local] [Test worker] INFO c.f.h.HTTPClientBuilder - create http client, elapsed=140417
+2025-07-02T02:51:10.879557Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.APIConfig - create web service client, interface=core.framework.module.APIConfigTest.TestWebService, serviceURL=http://localhost
+2025-07-02T02:51:10.883369Z [bottleCapsMBA.local] [Test worker] INFO c.f.w.site.WebDirectory - can not locate web directory
+2025-07-02T02:51:10.883510Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/vm, controller=core.framework.internal.web.sys.DiagnosticController.vm
+2025-07-02T02:51:10.883570Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/thread, controller=core.framework.internal.web.sys.DiagnosticController.thread
+2025-07-02T02:51:10.883618Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/heap, controller=core.framework.internal.web.sys.DiagnosticController.heap
+2025-07-02T02:51:10.883663Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/proc, controller=core.framework.internal.web.sys.DiagnosticController.proc
+2025-07-02T02:51:10.883717Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/property, controller=core.framework.internal.web.sys.PropertyController.execute
+2025-07-02T02:51:10.883751Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api, controller=null.execute
+2025-07-02T02:51:10.883784Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api/message, controller=null.execute
+2025-07-02T02:51:10.883939Z [bottleCapsMBA.local] [Test worker] INFO c.f.h.HTTPClientBuilder - create http client, elapsed=118167
+2025-07-02T02:51:10.884100Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.APIConfig - create web service, interface=core.framework.module.APIConfigTest.TestWebService
+2025-07-02T02:51:10.885897Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=PUT, path=/test/:id, controller=core.framework.module.APIConfigTest.TestWebServiceImpl.put
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.2.1</a> at Jul. 1, 2025, 7:51:11 p.m.</p>
+</div>
+</div>
+</body>
+</html>

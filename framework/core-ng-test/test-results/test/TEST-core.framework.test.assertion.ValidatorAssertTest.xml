@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.test.assertion.ValidatorAssertTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-06T08:06:04" hostname="bottleCapsMBA.local" time="0.324">
+  <properties/>
+  <testcase name="hasError()" classname="core.framework.test.assertion.ValidatorAssertTest" time="0.314"/>
+  <testcase name="failWithMessage()" classname="core.framework.test.assertion.ValidatorAssertTest" time="0.005"/>
+  <testcase name="isValid()" classname="core.framework.test.assertion.ValidatorAssertTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

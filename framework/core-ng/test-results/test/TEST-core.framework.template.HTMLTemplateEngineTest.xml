@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.template.HTMLTemplateEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:11" hostname="bottleCapsMBA.local" time="0.005">
+  <properties/>
+  <testcase name="process()" classname="core.framework.template.HTMLTemplateEngineTest" time="0.005"/>
+  <system-out><![CDATA[2025-07-02T02:51:11.042959Z [bottleCapsMBA.local] [Test worker] INFO c.f.t.HTMLTemplateEngine - add, name=test, modelClass=core.framework.template.HTMLTemplateEngineTest.TestModel, elapsed=3070959
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

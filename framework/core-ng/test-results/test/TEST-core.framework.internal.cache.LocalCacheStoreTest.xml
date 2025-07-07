@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.cache.LocalCacheStoreTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:03" hostname="bottleCapsMBA.local" time="0.017">
+  <properties/>
+  <testcase name="cleanupWithEviction()" classname="core.framework.internal.cache.LocalCacheStoreTest" time="0.004"/>
+  <testcase name="delete()" classname="core.framework.internal.cache.LocalCacheStoreTest" time="0.002"/>
+  <testcase name="getAll()" classname="core.framework.internal.cache.LocalCacheStoreTest" time="0.0"/>
+  <testcase name="putAll()" classname="core.framework.internal.cache.LocalCacheStoreTest" time="0.001"/>
+  <testcase name="getWithExpiredKey()" classname="core.framework.internal.cache.LocalCacheStoreTest" time="0.005"/>
+  <testcase name="get()" classname="core.framework.internal.cache.LocalCacheStoreTest" time="0.0"/>
+  <testcase name="clear()" classname="core.framework.internal.cache.LocalCacheStoreTest" time="0.0"/>
+  <testcase name="cleanup()" classname="core.framework.internal.cache.LocalCacheStoreTest" time="0.001"/>
+  <system-out><![CDATA[2025-07-02T02:51:03.444832Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.cache.LocalCacheStore - clean up local cache store
+2025-07-02T02:51:03.446330Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.cache.LocalCacheStore - evict least frequently used cache items, currentSize=3, maxSize=1
+2025-07-02T02:51:03.460566Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.cache.LocalCacheStore - clean up local cache store
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

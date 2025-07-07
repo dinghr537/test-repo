@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.log.web.UploadControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-06T08:06:22" hostname="bottleCapsMBA.local" time="0.089">
+  <properties/>
+  <testcase name="execute()" classname="core.log.web.UploadControllerTest" time="0.089"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

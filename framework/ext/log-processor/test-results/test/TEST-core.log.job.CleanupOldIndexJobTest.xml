@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.log.job.CleanupOldIndexJobTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-06T08:06:34" hostname="bottleCapsMBA.local" time="0.13">
+  <properties/>
+  <testcase name="cleanup()" classname="core.log.job.CleanupOldIndexJobTest" time="0.13"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

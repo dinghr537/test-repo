@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.module.APIConfigTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:10" hostname="bottleCapsMBA.local" time="0.017">
+  <properties/>
+  <testcase name="clientWithCustomHTTPClint()" classname="core.framework.module.APIConfigTest" time="0.008"/>
+  <testcase name="client()" classname="core.framework.module.APIConfigTest" time="0.005"/>
+  <testcase name="service()" classname="core.framework.module.APIConfigTest" time="0.003"/>
+  <system-out><![CDATA[2025-07-02T02:51:10.869683Z [bottleCapsMBA.local] [Test worker] INFO c.f.w.site.WebDirectory - can not locate web directory
+2025-07-02T02:51:10.869846Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/vm, controller=core.framework.internal.web.sys.DiagnosticController.vm
+2025-07-02T02:51:10.869918Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/thread, controller=core.framework.internal.web.sys.DiagnosticController.thread
+2025-07-02T02:51:10.869965Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/heap, controller=core.framework.internal.web.sys.DiagnosticController.heap
+2025-07-02T02:51:10.870010Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/proc, controller=core.framework.internal.web.sys.DiagnosticController.proc
+2025-07-02T02:51:10.870052Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/property, controller=core.framework.internal.web.sys.PropertyController.execute
+2025-07-02T02:51:10.870084Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api, controller=null.execute
+2025-07-02T02:51:10.870117Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api/message, controller=null.execute
+2025-07-02T02:51:10.870392Z [bottleCapsMBA.local] [Test worker] INFO c.f.h.HTTPClientBuilder - create http client, elapsed=192500
+2025-07-02T02:51:10.870762Z [bottleCapsMBA.local] [Test worker] INFO c.f.h.HTTPClientBuilder - create http client, elapsed=278084
+2025-07-02T02:51:10.870817Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.APIConfig - create web service client, interface=core.framework.module.APIConfigTest.TestWebService, serviceURL=http://localhost
+2025-07-02T02:51:10.878101Z [bottleCapsMBA.local] [Test worker] INFO c.f.w.site.WebDirectory - can not locate web directory
+2025-07-02T02:51:10.878513Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/vm, controller=core.framework.internal.web.sys.DiagnosticController.vm
+2025-07-02T02:51:10.878727Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/thread, controller=core.framework.internal.web.sys.DiagnosticController.thread
+2025-07-02T02:51:10.878864Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/heap, controller=core.framework.internal.web.sys.DiagnosticController.heap
+2025-07-02T02:51:10.878920Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/proc, controller=core.framework.internal.web.sys.DiagnosticController.proc
+2025-07-02T02:51:10.878974Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/property, controller=core.framework.internal.web.sys.PropertyController.execute
+2025-07-02T02:51:10.879023Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api, controller=null.execute
+2025-07-02T02:51:10.879068Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api/message, controller=null.execute
+2025-07-02T02:51:10.879254Z [bottleCapsMBA.local] [Test worker] INFO c.f.h.HTTPClientBuilder - create http client, elapsed=140417
+2025-07-02T02:51:10.879557Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.APIConfig - create web service client, interface=core.framework.module.APIConfigTest.TestWebService, serviceURL=http://localhost
+2025-07-02T02:51:10.883369Z [bottleCapsMBA.local] [Test worker] INFO c.f.w.site.WebDirectory - can not locate web directory
+2025-07-02T02:51:10.883510Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/vm, controller=core.framework.internal.web.sys.DiagnosticController.vm
+2025-07-02T02:51:10.883570Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/thread, controller=core.framework.internal.web.sys.DiagnosticController.thread
+2025-07-02T02:51:10.883618Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/heap, controller=core.framework.internal.web.sys.DiagnosticController.heap
+2025-07-02T02:51:10.883663Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/proc, controller=core.framework.internal.web.sys.DiagnosticController.proc
+2025-07-02T02:51:10.883717Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/property, controller=core.framework.internal.web.sys.PropertyController.execute
+2025-07-02T02:51:10.883751Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api, controller=null.execute
+2025-07-02T02:51:10.883784Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api/message, controller=null.execute
+2025-07-02T02:51:10.883939Z [bottleCapsMBA.local] [Test worker] INFO c.f.h.HTTPClientBuilder - create http client, elapsed=118167
+2025-07-02T02:51:10.884100Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.APIConfig - create web service, interface=core.framework.module.APIConfigTest.TestWebService
+2025-07-02T02:51:10.885897Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=PUT, path=/test/:id, controller=core.framework.module.APIConfigTest.TestWebServiceImpl.put
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

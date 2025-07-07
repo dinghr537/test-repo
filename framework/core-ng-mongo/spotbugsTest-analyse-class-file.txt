@@ -1,0 +1,16 @@
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/impl/LocalDateCodecTest.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/impl/BsonLogParamTest$TestUnregisteredEnum.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/impl/BsonLogParamTest.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/impl/EntityEncoderBuilderTest.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/impl/MongoClassValidatorTest$TestViewWithJSONProperty.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/impl/TestEntity.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/impl/TestView.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/impl/TestChildEntity.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/impl/TestEnum.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/impl/MongoClassValidatorTest.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/impl/MongoConnectionPoolMetricsTest.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/impl/EntityCodecTest.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/impl/EntityIdHandlerBuilderTest.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/impl/EntityDecoderBuilderTest.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/module/MongoConfigTest.class
+/Users/bottlecap/twirlista/core-ng-project/build/core-ng-mongo/classes/java/test/core/framework/mongo/MongoMigrationTest.class

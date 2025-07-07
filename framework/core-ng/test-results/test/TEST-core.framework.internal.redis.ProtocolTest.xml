@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.redis.ProtocolTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:08" hostname="bottleCapsMBA.local" time="0.007">
+  <properties/>
+  <testcase name="readSimpleError()" classname="core.framework.internal.redis.ProtocolTest" time="0.001"/>
+  <testcase name="readNullString()" classname="core.framework.internal.redis.ProtocolTest" time="0.0"/>
+  <testcase name="readArray()" classname="core.framework.internal.redis.ProtocolTest" time="0.002"/>
+  <testcase name="writeBlobString()" classname="core.framework.internal.redis.ProtocolTest" time="0.001"/>
+  <testcase name="writeArray()" classname="core.framework.internal.redis.ProtocolTest" time="0.0"/>
+  <testcase name="readNumber()" classname="core.framework.internal.redis.ProtocolTest" time="0.0"/>
+  <testcase name="readEmptyString()" classname="core.framework.internal.redis.ProtocolTest" time="0.0"/>
+  <testcase name="readSimpleString()" classname="core.framework.internal.redis.ProtocolTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

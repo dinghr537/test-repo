@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.redis.RedisOutputStreamTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:08" hostname="bottleCapsMBA.local" time="0.001">
+  <properties/>
+  <testcase name="writeBytesCRLFWithinBuffer()" classname="core.framework.internal.redis.RedisOutputStreamTest" time="0.0"/>
+  <testcase name="flush()" classname="core.framework.internal.redis.RedisOutputStreamTest" time="0.0"/>
+  <testcase name="write()" classname="core.framework.internal.redis.RedisOutputStreamTest" time="0.001"/>
+  <testcase name="writeBytesCRLF()" classname="core.framework.internal.redis.RedisOutputStreamTest" time="0.0"/>
+  <testcase name="writeBytesCRLFEOverLeftBuffer()" classname="core.framework.internal.redis.RedisOutputStreamTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

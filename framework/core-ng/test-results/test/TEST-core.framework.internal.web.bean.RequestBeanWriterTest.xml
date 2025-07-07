@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.web.bean.RequestBeanWriterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:09" hostname="bottleCapsMBA.local" time="0.007">
+  <properties/>
+  <testcase name="register()" classname="core.framework.internal.web.bean.RequestBeanWriterTest" time="0.003"/>
+  <testcase name="registerQueryParam()" classname="core.framework.internal.web.bean.RequestBeanWriterTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

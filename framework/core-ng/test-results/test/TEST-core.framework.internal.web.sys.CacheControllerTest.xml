@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.web.sys.CacheControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:10" hostname="bottleCapsMBA.local" time="0.057">
+  <properties/>
+  <testcase name="delete()" classname="core.framework.internal.web.sys.CacheControllerTest" time="0.054"/>
+  <testcase name="get()" classname="core.framework.internal.web.sys.CacheControllerTest" time="0.002"/>
+  <testcase name="cache()" classname="core.framework.internal.web.sys.CacheControllerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

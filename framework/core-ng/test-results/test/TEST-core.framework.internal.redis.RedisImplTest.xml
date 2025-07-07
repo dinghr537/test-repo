@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.redis.RedisImplTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:08" hostname="bottleCapsMBA.local" time="0.004">
+  <properties/>
+  <testcase name="timeout()" classname="core.framework.internal.redis.RedisImplTest" time="0.001"/>
+  <testcase name="set()" classname="core.framework.internal.redis.RedisImplTest" time="0.001"/>
+  <testcase name="close()" classname="core.framework.internal.redis.RedisImplTest" time="0.001"/>
+  <system-out><![CDATA[2025-07-02T02:51:08.351615Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.redis.RedisImpl - close redis client, name=null, host=null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

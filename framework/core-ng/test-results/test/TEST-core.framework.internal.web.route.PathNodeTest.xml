@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.web.route.PathNodeTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:10" hostname="bottleCapsMBA.local" time="0.004">
+  <properties/>
+  <testcase name="conflictDynamicPathPattern()" classname="core.framework.internal.web.route.PathNodeTest" time="0.001"/>
+  <testcase name="dynamicPathPattern()" classname="core.framework.internal.web.route.PathNodeTest" time="0.0"/>
+  <testcase name="wildcardPathPattern()" classname="core.framework.internal.web.route.PathNodeTest" time="0.001"/>
+  <testcase name="dynamicPathPatternNotMatchTrailingSlash()" classname="core.framework.internal.web.route.PathNodeTest" time="0.0"/>
+  <testcase name="rootPath()" classname="core.framework.internal.web.route.PathNodeTest" time="0.0"/>
+  <testcase name="dynamicPathPatternsWithTrailingSlash()" classname="core.framework.internal.web.route.PathNodeTest" time="0.0"/>
+  <testcase name="conflictWildcardPathPattern()" classname="core.framework.internal.web.route.PathNodeTest" time="0.0"/>
+  <testcase name="invalidWildcardVariable()" classname="core.framework.internal.web.route.PathNodeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

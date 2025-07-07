@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.template.CDNManagerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:08" hostname="bottleCapsMBA.local" time="0.001">
+  <properties/>
+  <testcase name="absoluteURL()" classname="core.framework.internal.template.CDNManagerTest" time="0.001"/>
+  <testcase name="url()" classname="core.framework.internal.template.CDNManagerTest" time="0.0"/>
+  <testcase name="dataURL()" classname="core.framework.internal.template.CDNManagerTest" time="0.0"/>
+  <system-out><![CDATA[2025-07-02T02:51:08.730062Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.template.CDNManager - set cdn host, host=cdn
+2025-07-02T02:51:08.730514Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.template.CDNManager - set cdn host, host=cdn
+2025-07-02T02:51:08.731009Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.template.CDNManager - set cdn host, host=cdn
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

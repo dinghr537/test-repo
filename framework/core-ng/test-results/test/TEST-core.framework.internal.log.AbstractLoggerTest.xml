@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.log.AbstractLoggerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:07" hostname="bottleCapsMBA.local" time="0.249">
+  <properties/>
+  <testcase name="logWithEmptyArguments()" classname="core.framework.internal.log.AbstractLoggerTest" time="0.249"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

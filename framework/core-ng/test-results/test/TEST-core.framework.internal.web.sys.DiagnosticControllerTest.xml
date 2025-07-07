@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.web.sys.DiagnosticControllerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:10" hostname="bottleCapsMBA.local" time="0.054">
+  <properties/>
+  <testcase name="thread()" classname="core.framework.internal.web.sys.DiagnosticControllerTest" time="0.002"/>
+  <testcase name="vm()" classname="core.framework.internal.web.sys.DiagnosticControllerTest" time="0.003"/>
+  <testcase name="heap()" classname="core.framework.internal.web.sys.DiagnosticControllerTest" time="0.048"/>
+  <testcase name="proc()" classname="core.framework.internal.web.sys.DiagnosticControllerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

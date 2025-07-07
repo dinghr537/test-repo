@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.log.kafka.ActionLogMessageHandlerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-06T08:06:34" hostname="bottleCapsMBA.local" time="1.857">
+  <properties/>
+  <testcase name="indexWithoutTrace()" classname="core.log.kafka.ActionLogMessageHandlerTest" time="0.826"/>
+  <testcase name="index()" classname="core.log.kafka.ActionLogMessageHandlerTest" time="0.843"/>
+  <testcase name="indexWithDifferentDateFormatValues()" classname="core.log.kafka.ActionLogMessageHandlerTest" time="0.186"/>
+  <system-out><![CDATA[2025-07-06T08:06:34.985233Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.metadata.MetadataCreateIndexService - [action-2022.10.03] creating index, cause [auto(bulk api)], templates [action], shards [1]/[1]
+2025-07-06T08:06:35.449751Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.metadata.MetadataCreateIndexService - [trace-2022.10.03] creating index, cause [auto(bulk api)], templates [trace], shards [1]/[1]
+2025-07-06T08:06:35.757509Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.metadata.MetadataCreateIndexService - [action-2016.01.15] creating index, cause [auto(bulk api)], templates [action], shards [1]/[1]
+2025-07-06T08:06:35.969693Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.metadata.MetadataMappingService - [action-2016.01.15/dw_iMmzPSlmLZhsbKmg7-w] update_mapping [_doc]
+2025-07-06T08:06:36.022068Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.metadata.MetadataCreateIndexService - [trace-2016.01.15] creating index, cause [auto(bulk api)], templates [trace], shards [1]/[1]
+2025-07-06T08:06:36.301454Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - refresh index, index=action-2016.01.15, elapsed=20144000
+2025-07-06T08:06:36.583559Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.metadata.MetadataCreateIndexService - [action-2025.07.06] creating index, cause [auto(bulk api)], templates [action], shards [1]/[1]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

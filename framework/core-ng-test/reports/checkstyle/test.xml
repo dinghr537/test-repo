@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.12.1">
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/resources/messages/messages.properties">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/resources/test.properties">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/resources/env/test/test.properties">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/resources/env/conf2/dev/resources/test.properties">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/resources/env/conf1/dev/resources/test.properties">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/resources/env/main/test.properties">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/OverrideBeanTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/inject/InjectIntegrationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/inject/TestBean.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/redis/MockRedisAdminTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/redis/MockRedisHashTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/redis/MockRedisListTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/redis/MockRedisTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/redis/MockRedisSetTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/redis/MockRedisHyperLogLogTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/redis/KeyMatcherTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/redis/MockRedisSortedSetTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/web/MessageIntegrationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/web/WebServiceIntegrationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/web/TestWebServiceClientInterceptor.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/web/TestWebService.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/web/SessionIntegrationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/module/TestModuleContextTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/async/MockExecutorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/scheduler/TestJob.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/TestModule.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/assertion/EnvResourceAssertTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/assertion/ValidatorAssertTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/assertion/EnumConversionAssertTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/kafka/MessagePublisherIntegrationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/kafka/TestMessage.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/db/TestDBEntityWithJSON.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/db/DBJSONIntegrationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/db/DBIntegrationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/db/TestDBProjection.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/db/TestDBView.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/db/TestDBEntity.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/test/IntegrationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/module/TestRedisConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-test/src/test/java/core/framework/module/TestDBConfigTest.java">
+</file>
+</checkstyle>

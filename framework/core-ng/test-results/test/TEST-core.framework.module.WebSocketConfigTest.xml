@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.module.WebSocketConfigTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:11" hostname="bottleCapsMBA.local" time="0.006">
+  <properties/>
+  <testcase name="validate()" classname="core.framework.module.WebSocketConfigTest" time="0.001"/>
+  <testcase name="withReservedPath()" classname="core.framework.module.WebSocketConfigTest" time="0.001"/>
+  <testcase name="listen()" classname="core.framework.module.WebSocketConfigTest" time="0.004"/>
+  <system-out><![CDATA[2025-07-02T02:51:11.028220Z [bottleCapsMBA.local] [Test worker] INFO c.f.w.site.WebDirectory - can not locate web directory
+2025-07-02T02:51:11.028462Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/vm, controller=core.framework.internal.web.sys.DiagnosticController.vm
+2025-07-02T02:51:11.028667Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/thread, controller=core.framework.internal.web.sys.DiagnosticController.thread
+2025-07-02T02:51:11.028758Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/heap, controller=core.framework.internal.web.sys.DiagnosticController.heap
+2025-07-02T02:51:11.028889Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/proc, controller=core.framework.internal.web.sys.DiagnosticController.proc
+2025-07-02T02:51:11.028961Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/property, controller=core.framework.internal.web.sys.PropertyController.execute
+2025-07-02T02:51:11.029030Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api, controller=null.execute
+2025-07-02T02:51:11.029220Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api/message, controller=null.execute
+2025-07-02T02:51:11.033787Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.WebSocketConfig - ws, path=/ws2, clientMessageClass=core.framework.internal.web.websocket.TestWebSocketMessage, serverMessageClass=core.framework.internal.web.websocket.TestWebSocketMessage, listener=core.framework.internal.web.websocket.TestChannelListener
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.web.site.MessageImplMultiLanguageTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:10" hostname="bottleCapsMBA.local" time="0.012">
+  <properties/>
+  <testcase name="language()" classname="core.framework.internal.web.site.MessageImplMultiLanguageTest" time="0.005"/>
+  <testcase name="getWithNotDefinedLanguage()" classname="core.framework.internal.web.site.MessageImplMultiLanguageTest" time="0.001"/>
+  <testcase name="getWithNotExistedKey()" classname="core.framework.internal.web.site.MessageImplMultiLanguageTest" time="0.002"/>
+  <testcase name="validateMessageKeys()" classname="core.framework.internal.web.site.MessageImplMultiLanguageTest" time="0.002"/>
+  <testcase name="get()" classname="core.framework.internal.web.site.MessageImplMultiLanguageTest" time="0.002"/>
+  <system-out><![CDATA[2025-07-02T02:51:10.473955Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.MessageImpl - load message properties, path=message-test/messages.properties
+2025-07-02T02:51:10.475746Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.MessageImpl - load message properties, path=message-test/messages_en.properties
+2025-07-02T02:51:10.476632Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.MessageImpl - load message properties, path=message-test/messages_en_US.properties
+2025-07-02T02:51:10.478975Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.MessageImpl - load message properties, path=message-test/messages.properties
+2025-07-02T02:51:10.479241Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.MessageImpl - load message properties, path=message-test/messages_en.properties
+2025-07-02T02:51:10.479413Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.MessageImpl - load message properties, path=message-test/messages_en_US.properties
+2025-07-02T02:51:10.480144Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.MessageImpl - load message properties, path=message-test/messages.properties
+2025-07-02T02:51:10.480486Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.MessageImpl - load message properties, path=message-test/messages_en.properties
+2025-07-02T02:51:10.480979Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.MessageImpl - load message properties, path=message-test/messages_en_US.properties
+2025-07-02T02:51:10.482268Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.MessageImpl - load message properties, path=message-test/messages.properties
+2025-07-02T02:51:10.482470Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.MessageImpl - load message properties, path=message-test/messages_en.properties
+2025-07-02T02:51:10.482613Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.MessageImpl - load message properties, path=message-test/messages_en_US.properties
+2025-07-02T02:51:10.484253Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.MessageImpl - load message properties, path=message-test/messages.properties
+2025-07-02T02:51:10.484767Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.MessageImpl - load message properties, path=message-test/messages_en.properties
+2025-07-02T02:51:10.485094Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.site.MessageImpl - load message properties, path=message-test/messages_en_US.properties
+]]></system-out>
+  <system-err><![CDATA[2025-07-02T02:51:10.481703Z [bottleCapsMBA.local] [Test worker] ERROR c.f.i.w.site.MessageImpl - [INVALID_MESSAGE_KEY] can not find message, key=notExistedKey, language=zh
+]]></system-err>
+</testsuite>

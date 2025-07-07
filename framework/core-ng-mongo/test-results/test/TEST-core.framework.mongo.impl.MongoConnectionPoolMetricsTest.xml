@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.mongo.impl.MongoConnectionPoolMetricsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:20" hostname="bottleCapsMBA.local" time="1.837">
+  <properties/>
+  <testcase name="collect()" classname="core.framework.mongo.impl.MongoConnectionPoolMetricsTest" time="1.837"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

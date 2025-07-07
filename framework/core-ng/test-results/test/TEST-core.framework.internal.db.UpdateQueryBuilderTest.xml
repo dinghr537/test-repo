@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.db.UpdateQueryBuilderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:05" hostname="bottleCapsMBA.local" time="0.019">
+  <properties/>
+  <testcase name="sourceCode()" classname="core.framework.internal.db.UpdateQueryBuilderTest" time="0.011"/>
+  <testcase name="update()" classname="core.framework.internal.db.UpdateQueryBuilderTest" time="0.003"/>
+  <testcase name="updateWithCondition()" classname="core.framework.internal.db.UpdateQueryBuilderTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

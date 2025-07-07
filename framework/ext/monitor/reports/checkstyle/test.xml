@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.12.1">
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/alert/AlertTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/alert/AlertServiceTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/alert/MatchersTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/channel/SlackClientTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/channel/ChannelManagerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/kafka/StatMessageHandlerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/kafka/EventMessageHandlerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/kafka/ActionLogMessageHandlerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/job/KubeMonitorJobTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/job/GCStatTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/job/APIMonitorJobTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/job/MongoMonitorJobTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/job/JMXClientTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/job/ElasticSearchMonitorJobTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/job/KafkaMonitorJobTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/job/RedisMonitorJobTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/job/ElasticSearchClientTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/api/APIWarningsTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/api/MessageAPIValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/monitor/api/APIValidatorTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/TestModule.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/ConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/monitor/src/test/java/app/IntegrationTest.java">
+</file>
+</checkstyle>

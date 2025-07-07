@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.12.1">
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/SearchException.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/impl/ElasticSearchForEach.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/impl/DocumentClassValidator.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/impl/ElasticSearchTypeImpl.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/impl/ElasticSearchHost.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/impl/ElasticSearchLogInterceptor.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/impl/ElasticSearchImpl.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/IndexRequest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/Index.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/PartialUpdateRequest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/AnalyzeRequest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/module/SearchConfig.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/GetRequest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/ElasticSearchType.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/ElasticSearchMigration.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/DeleteByQueryRequest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/BulkIndexRequest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/DeleteRequest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/BulkDeleteRequest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/ClusterStateResponse.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/query/Sorts.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/query/Queries.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/query/Aggregations.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/SearchResponse.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/SearchRequest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/ElasticSearch.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/ForEach.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/CompleteRequest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-search/src/main/java/core/framework/search/UpdateRequest.java">
+</file>
+</checkstyle>

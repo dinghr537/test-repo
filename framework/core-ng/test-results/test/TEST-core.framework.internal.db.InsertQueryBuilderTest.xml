@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.db.InsertQueryBuilderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:04" hostname="bottleCapsMBA.local" time="0.035">
+  <properties/>
+  <testcase name="assignedIdWithPostgreSQL()" classname="core.framework.internal.db.InsertQueryBuilderTest" time="0.025"/>
+  <testcase name="assignedId()" classname="core.framework.internal.db.InsertQueryBuilderTest" time="0.004"/>
+  <testcase name="autoIncrementId()" classname="core.framework.internal.db.InsertQueryBuilderTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

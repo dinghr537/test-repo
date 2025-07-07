@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.search.impl.ElasticSearchIntegrationTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2025-07-06T08:05:57" hostname="bottleCapsMBA.local" time="2.078">
+  <properties/>
+  <testcase name="searchDateRange()" classname="core.framework.search.impl.ElasticSearchIntegrationTest" time="0.515"/>
+  <testcase name="delete()" classname="core.framework.search.impl.ElasticSearchIntegrationTest" time="0.088"/>
+  <testcase name="bulkDelete()" classname="core.framework.search.impl.ElasticSearchIntegrationTest" time="0.106"/>
+  <testcase name="search()" classname="core.framework.search.impl.ElasticSearchIntegrationTest" time="0.317"/>
+  <testcase name="analyze()" classname="core.framework.search.impl.ElasticSearchIntegrationTest" time="0.056"/>
+  <testcase name="update()" classname="core.framework.search.impl.ElasticSearchIntegrationTest" time="0.137"/>
+  <testcase name="forEach()" classname="core.framework.search.impl.ElasticSearchIntegrationTest" time="0.169"/>
+  <testcase name="complete()" classname="core.framework.search.impl.ElasticSearchIntegrationTest" time="0.091"/>
+  <testcase name="index()" classname="core.framework.search.impl.ElasticSearchIntegrationTest" time="0.052"/>
+  <testcase name="state()" classname="core.framework.search.impl.ElasticSearchIntegrationTest" time="0.041"/>
+  <testcase name="deleteByQuery()" classname="core.framework.search.impl.ElasticSearchIntegrationTest" time="0.133"/>
+  <testcase name="aggregate()" classname="core.framework.search.impl.ElasticSearchIntegrationTest" time="0.128"/>
+  <testcase name="partialUpdate()" classname="core.framework.search.impl.ElasticSearchIntegrationTest" time="0.064"/>
+  <testcase name="putIndex()" classname="core.framework.search.impl.ElasticSearchIntegrationTest" time="0.072"/>
+  <testcase name="trackTotalHits()" classname="core.framework.search.impl.ElasticSearchIntegrationTest" time="0.104"/>
+  <system-out><![CDATA[2025-07-06T08:05:47.858192Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.log.LogManager - not found -Dcore.appName, this should only happen in local dev env or test, use "local" as appName
+2025-07-06T08:05:47.866478Z [bottleCapsMBA.local] [Test worker] INFO c.f.t.module.AbstractTestModule - initialize test context
+2025-07-06T08:05:47.974811Z [bottleCapsMBA.local] [Test worker] INFO c.f.w.site.WebDirectory - can not locate web directory
+2025-07-06T08:05:48.883623Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/vm, controller=core.framework.internal.web.sys.DiagnosticController.vm
+2025-07-06T08:05:48.886079Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/thread, controller=core.framework.internal.web.sys.DiagnosticController.thread
+2025-07-06T08:05:48.886337Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/heap, controller=core.framework.internal.web.sys.DiagnosticController.heap
+2025-07-06T08:05:48.886502Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/proc, controller=core.framework.internal.web.sys.DiagnosticController.proc
+2025-07-06T08:05:48.887158Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/property, controller=core.framework.internal.web.sys.PropertyController.execute
+2025-07-06T08:05:48.887361Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api, controller=null.execute
+2025-07-06T08:05:48.887505Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api/message, controller=null.execute
+2025-07-06T08:05:48.887647Z [bottleCapsMBA.local] [Test worker] INFO c.f.t.module.AbstractTestModule - initialize application
+2025-07-06T08:05:49.747876Z [bottleCapsMBA.local] [Test worker] INFO o.e.n.Node - version[8.9.0], pid[13272], build[unknown/8aa461beb06aa0417a231c345a1b8c38fb498a0d/2023-07-19T14:43:58.555259655Z], OS[Mac OS X/15.5/aarch64], JVM[Azul Systems, Inc./OpenJDK 64-Bit Server VM/17.0.15/17.0.15+6-LTS]
+2025-07-06T08:05:49.748123Z [bottleCapsMBA.local] [Test worker] INFO o.e.n.Node - JVM home [/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home], using bundled JDK [false]
+2025-07-06T08:05:49.748230Z [bottleCapsMBA.local] [Test worker] INFO o.e.n.Node - JVM arguments [-Dorg.gradle.internal.worker.tmpdir=/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/tmp/test/work, -Dorg.gradle.native=false, -javaagent:/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/tmp/.cache/expanded/zip_a33b649e552c51298e5a242c2f0d0e3c/jacocoagent.jar=destfile=../build/core-ng-search-test/jacoco/test.exec,append=true,inclnolocationclasses=false,dumponexit=true,output=file,jmx=false, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=CA, -Duser.language=en, -Duser.variant, -ea]
+2025-07-06T08:05:54.478343Z [bottleCapsMBA.local] [Test worker] INFO o.e.e.NodeEnvironment - using [1] data paths, mounts [[/System/Volumes/Data (/dev/disk3s5)]], net usable_space [53.4gb], net total_space [460.4gb], types [apfs]
+2025-07-06T08:05:54.478616Z [bottleCapsMBA.local] [Test worker] INFO o.e.e.NodeEnvironment - heap size [512mb], compressed ordinary object pointers [true]
+2025-07-06T08:05:54.492738Z [bottleCapsMBA.local] [Test worker] INFO o.e.n.Node - node name [test], node ID [IzIqJI19TRuUQhL7tikxWw], cluster name [test], roles [data_hot, ml, data_frozen, ingest, data_cold, data, remote_cluster_client, master, data_warm, data_content, transform]
+2025-07-06T08:05:55.734285Z [bottleCapsMBA.local] [Test worker] INFO o.e.t.netty4.NettyAllocator - creating NettyAllocator with the following configs: [name=unpooled, suggested_max_allocation_size=256kb, factors={es.unsafe.use_unpooled_allocator=null, g1gc_enabled=true, g1gc_region_size=1mb, heap_size=512mb}]
+2025-07-06T08:05:55.758298Z [bottleCapsMBA.local] [Test worker] INFO o.e.i.recovery.RecoverySettings - using rate limit [40mb] with [default=40mb, read=0b, write=0b, max=0b]
+2025-07-06T08:05:55.797226Z [bottleCapsMBA.local] [Test worker] INFO o.e.d.DiscoveryModule - using discovery type [single-node] and seed hosts providers [settings]
+2025-07-06T08:05:56.137328Z [bottleCapsMBA.local] [Test worker] INFO o.e.n.Node - initialized
+2025-07-06T08:05:56.137485Z [bottleCapsMBA.local] [Test worker] INFO o.e.n.Node - starting ...
+2025-07-06T08:05:56.232326Z [bottleCapsMBA.local] [Test worker] INFO o.e.t.TransportService - publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+2025-07-06T08:05:56.454436Z [bottleCapsMBA.local] [Test worker] INFO o.e.c.coordination.ClusterBootstrapService - this node has not joined a bootstrapped cluster yet; [cluster.initial_master_nodes] is set to [test]
+2025-07-06T08:05:56.457463Z [bottleCapsMBA.local] [Test worker] INFO o.e.c.coordination.Coordinator - setting initial configuration to VotingConfiguration{IzIqJI19TRuUQhL7tikxWw}
+2025-07-06T08:05:56.635045Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.service.MasterService - elected-as-master ([1] nodes joined in term 1)[_FINISH_ELECTION_, {test}{IzIqJI19TRuUQhL7tikxWw}{GsBjYhC5TiSbpjzPhODXJw}{test}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{8.9.0} completing election], term: 1, version: 1, delta: master node changed {previous [], current [{test}{IzIqJI19TRuUQhL7tikxWw}{GsBjYhC5TiSbpjzPhODXJw}{test}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{8.9.0}]}
+2025-07-06T08:05:56.664799Z [bottleCapsMBA.local] [elasticsearch[test][cluster_coordination][T#1]] INFO o.e.c.coordination.CoordinationState - cluster UUID set to [yBzYm3hWRw2JpNFsrzTWow]
+2025-07-06T08:05:56.688403Z [bottleCapsMBA.local] [elasticsearch[test][clusterApplierService#updateTask][T#1]] INFO o.e.c.service.ClusterApplierService - master node changed {previous [], current [{test}{IzIqJI19TRuUQhL7tikxWw}{GsBjYhC5TiSbpjzPhODXJw}{test}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{8.9.0}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+2025-07-06T08:05:56.724163Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.coordination.NodeJoinExecutor - node-join: [{test}{IzIqJI19TRuUQhL7tikxWw}{GsBjYhC5TiSbpjzPhODXJw}{test}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{8.9.0}] with reason [completing election]
+2025-07-06T08:05:56.727918Z [bottleCapsMBA.local] [Test worker] INFO o.e.h.AbstractHttpServerTransport - publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+2025-07-06T08:05:56.728104Z [bottleCapsMBA.local] [Test worker] INFO o.e.n.Node - started {test}{IzIqJI19TRuUQhL7tikxWw}{GsBjYhC5TiSbpjzPhODXJw}{test}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{8.9.0}
+2025-07-06T08:05:56.729488Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.LocalElasticSearch - create local elasticsearch node, dataPath=/var/folders/4z/jg7yjp515zb48mnj6gtdkhxc0000gn/T/0f95bc50-00a6-445e-8977-6c7748f9ab71, elapsed=7411147917
+2025-07-06T08:05:56.763315Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.g.GatewayService - recovered [0] indices into cluster_state
+2025-07-06T08:05:56.801178Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - register elasticsearch type, documentClass=core.framework.search.impl.TestDocument, elapsed=71481583
+2025-07-06T08:05:56.829376Z [bottleCapsMBA.local] [elasticsearch[test][management][T#1]] INFO o.e.h.n.selection.HealthNodeTaskExecutor - Node [{test}{IzIqJI19TRuUQhL7tikxWw}] is selected as the current health node.
+2025-07-06T08:05:57.133155Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.metadata.MetadataCreateIndexService - [document] creating index, cause [api], templates [], shards [1]/[1]
+2025-07-06T08:05:57.422680Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - put index, index=document, source={
+  "settings": {
+    "number_of_shards": 1,
+    "analysis": {
+      "filter": {
+        "synonym": {
+          "type": "synonym",
+          "synonyms": [
+            "1st, first",
+            "2nd, second"
+          ]
+        },
+        "english_stemmer": {
+          "type": "stemmer",
+          "language": "english"
+        },
+        "english_possessive_stemmer": {
+          "type": "stemmer",
+          "language": "possessive_english"
+        }
+      },
+      "analyzer": {
+        "english": {
+          "tokenizer": "standard",
+          "filter": [
+            "english_possessive_stemmer",
+            "lowercase",
+            "stop",
+            "english_stemmer"
+          ]
+        },
+        "english_search": {
+          "tokenizer": "standard",
+          "filter": [
+            "english_possessive_stemmer",
+            "lowercase",
+            "synonym",
+            "stop",
+            "english_stemmer"
+          ]
+        },
+        "keyword": {
+          "tokenizer": "keyword",
+          "filter": [
+            "lowercase"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "completion1": {
+        "type": "completion"
+      },
+      "completion2": {
+        "type": "completion"
+      },
+      "id": {
+        "type": "keyword"
+      },
+      "string_field": {
+        "type": "text",
+        "analyzer": "english",
+        "search_analyzer": "english_search"
+      },
+      "int_field": {
+        "type": "integer"
+      },
+      "double_field": {
+        "type": "double"
+      },
+      "zoned_date_time_field": {
+        "type": "date",
+        "format": "strict_date_optional_time"
+      },
+      "local_time_field": {
+        "type": "date",
+        "format": "strict_hour_minute_second_fraction"
+      },
+      "enum_field": {
+        "type": "keyword"
+      }
+    }
+  }
+}
+, elapsed=526372334
+2025-07-06T08:05:57.442800Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.metadata.MetadataIndexTemplateService - adding index template [document] for index patterns [document-*]
+2025-07-06T08:05:57.461843Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - put index template, name=document, source={
+  "index_patterns": ["document-*"],
+  "priority": 1,
+  "template": {
+    "settings": {
+      "number_of_shards": 1
+    },
+    "mappings": {
+      "properties": {
+        "string_field": {
+          "type": "text"
+        },
+        "int_field": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}
+, elapsed=37850958
+2025-07-06T08:05:57.504013Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - refresh index, index=document, elapsed=41958875
+2025-07-06T08:05:57.504596Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - register elasticsearch type, documentClass=core.framework.search.impl.TestDocument, elapsed=101833
+2025-07-06T08:05:57.683603Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - refresh index, index=document, elapsed=52392375
+2025-07-06T08:05:58.271581Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - refresh index, index=document, elapsed=40735250
+2025-07-06T08:05:58.778636Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - refresh index, index=document, elapsed=20866083
+2025-07-06T08:05:58.931212Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - refresh index, index=document, elapsed=16695708
+2025-07-06T08:05:59.057496Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - get cluster state, elapsed=15504625
+2025-07-06T08:05:59.123093Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - refresh index, index=document, elapsed=15607208
+2025-07-06T08:05:59.273323Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - refresh index, index=document, elapsed=17024458
+2025-07-06T08:05:59.413539Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - get cluster state, elapsed=3563417
+2025-07-06T08:05:59.417582Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - index already exists, update mapping, index=document
+2025-07-06T08:05:59.440579Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - put index, index=document, source={
+  "settings": {
+    "number_of_shards": 1,
+    "analysis": {
+      "filter": {
+        "synonym": {
+          "type": "synonym",
+          "synonyms": [
+            "1st, first",
+            "2nd, second"
+          ]
+        },
+        "english_stemmer": {
+          "type": "stemmer",
+          "language": "english"
+        },
+        "english_possessive_stemmer": {
+          "type": "stemmer",
+          "language": "possessive_english"
+        }
+      },
+      "analyzer": {
+        "english": {
+          "tokenizer": "standard",
+          "filter": [
+            "english_possessive_stemmer",
+            "lowercase",
+            "stop",
+            "english_stemmer"
+          ]
+        },
+        "english_search": {
+          "tokenizer": "standard",
+          "filter": [
+            "english_possessive_stemmer",
+            "lowercase",
+            "synonym",
+            "stop",
+            "english_stemmer"
+          ]
+        },
+        "keyword": {
+          "tokenizer": "keyword",
+          "filter": [
+            "lowercase"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "completion1": {
+        "type": "completion"
+      },
+      "completion2": {
+        "type": "completion"
+      },
+      "id": {
+        "type": "keyword"
+      },
+      "string_field": {
+        "type": "text",
+        "analyzer": "english",
+        "search_analyzer": "english_search"
+      },
+      "int_field": {
+        "type": "integer"
+      },
+      "double_field": {
+        "type": "double"
+      },
+      "zoned_date_time_field": {
+        "type": "date",
+        "format": "strict_date_optional_time"
+      },
+      "local_time_field": {
+        "type": "date",
+        "format": "strict_hour_minute_second_fraction"
+      },
+      "enum_field": {
+        "type": "keyword"
+      }
+    }
+  }
+}
+, elapsed=26652625
+2025-07-06T08:05:59.444512Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - index already exists, update mapping, index=document
+2025-07-06T08:05:59.455800Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - put index, index=document, source={
+  "settings": {
+    "number_of_shards": 1,
+    "analysis": {
+      "filter": {
+        "synonym": {
+          "type": "synonym",
+          "synonyms": [
+            "1st, first",
+            "2nd, second"
+          ]
+        },
+        "english_stemmer": {
+          "type": "stemmer",
+          "language": "english"
+        },
+        "english_possessive_stemmer": {
+          "type": "stemmer",
+          "language": "possessive_english"
+        }
+      },
+      "analyzer": {
+        "english": {
+          "tokenizer": "standard",
+          "filter": [
+            "english_possessive_stemmer",
+            "lowercase",
+            "stop",
+            "english_stemmer"
+          ]
+        },
+        "english_search": {
+          "tokenizer": "standard",
+          "filter": [
+            "english_possessive_stemmer",
+            "lowercase",
+            "synonym",
+            "stop",
+            "english_stemmer"
+          ]
+        },
+        "keyword": {
+          "tokenizer": "keyword",
+          "filter": [
+            "lowercase"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "completion1": {
+        "type": "completion"
+      },
+      "completion2": {
+        "type": "completion"
+      },
+      "id": {
+        "type": "keyword"
+      },
+      "string_field": {
+        "type": "text",
+        "analyzer": "english",
+        "search_analyzer": "english_search"
+      },
+      "int_field": {
+        "type": "integer"
+      },
+      "double_field": {
+        "type": "double"
+      },
+      "zoned_date_time_field": {
+        "type": "date",
+        "format": "strict_date_optional_time"
+      },
+      "local_time_field": {
+        "type": "date",
+        "format": "strict_hour_minute_second_fraction"
+      },
+      "enum_field": {
+        "type": "keyword"
+      }
+    }
+  }
+}
+, elapsed=14339125
+2025-07-06T08:05:59.544589Z [bottleCapsMBA.local] [Test worker] INFO c.f.s.impl.ElasticSearchImpl - refresh index, index=document, elapsed=21759625
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

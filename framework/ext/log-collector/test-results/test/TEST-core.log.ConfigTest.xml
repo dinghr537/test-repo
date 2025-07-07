@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.log.ConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-06T08:06:16" hostname="bottleCapsMBA.local" time="0.297">
+  <properties/>
+  <testcase name="conf()" classname="core.log.ConfigTest" time="0.297"/>
+  <system-out><![CDATA[2025-07-06T08:06:13.119543Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.log.LogManager - not found -Dcore.appName, this should only happen in local dev env or test, use "local" as appName
+2025-07-06T08:06:13.133138Z [bottleCapsMBA.local] [Test worker] INFO c.f.t.module.AbstractTestModule - initialize test context
+2025-07-06T08:06:13.189575Z [bottleCapsMBA.local] [Test worker] INFO c.f.w.site.WebDirectory - found local web directory, this should only happen in local dev env or test, path=./src/main/dist/web
+2025-07-06T08:06:13.841435Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/vm, controller=core.framework.internal.web.sys.DiagnosticController.vm
+2025-07-06T08:06:13.842900Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/thread, controller=core.framework.internal.web.sys.DiagnosticController.thread
+2025-07-06T08:06:13.843164Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/heap, controller=core.framework.internal.web.sys.DiagnosticController.heap
+2025-07-06T08:06:13.843330Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/proc, controller=core.framework.internal.web.sys.DiagnosticController.proc
+2025-07-06T08:06:13.843812Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/property, controller=core.framework.internal.web.sys.PropertyController.execute
+2025-07-06T08:06:13.849257Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api, controller=null.execute
+2025-07-06T08:06:13.849614Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api/message, controller=null.execute
+2025-07-06T08:06:13.849766Z [bottleCapsMBA.local] [Test worker] INFO c.f.t.module.AbstractTestModule - initialize application
+2025-07-06T08:06:13.850429Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.Module - load module, module=core.log.LogCollectorApp
+2025-07-06T08:06:13.853741Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.Module - load module, module=core.framework.module.SystemModule
+2025-07-06T08:06:13.853844Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.Module - load properties, classpath=sys.properties
+2025-07-06T08:06:13.874101Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.Module - load properties, classpath=app.properties
+2025-07-06T08:06:13.880021Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.SiteConfig - add static content path, path=/robots.txt
+2025-07-06T08:06:13.883440Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/robots.txt, controller=core.framework.internal.web.site.StaticFileController.execute
+2025-07-06T08:06:13.885049Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.KafkaConfig - publish, topic=event, messageClass=core.framework.log.message.EventMessage, name=null
+2025-07-06T08:06:16.005536Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=OPTIONS, path=/event/:app, controller=core.log.web.EventController.options
+2025-07-06T08:06:16.010317Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=POST, path=/event/:app, controller=core.log.web.EventController.post
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

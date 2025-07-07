@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.12.1">
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/MongoImpl.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/ZonedDateTimeCodec.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/BsonWriterWrapper.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/LocalDateCodec.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/EntityEncoder.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/EntityCodec.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/BsonLogParam.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/BsonReaderWrapper.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/EnumCodec.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/MongoConnectionPoolMetrics.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/EntityIdHandlerBuilder.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/EntityDecoder.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/MongoClassValidator.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/EntityDecoderBuilder.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/EntityEncoderBuilder.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/EntityIdHandler.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/EntityCodecs.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/MongoCollectionImpl.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/impl/LocalDateTimeCodec.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/MongoMigration.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/Id.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/Collection.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/Mongo.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/module/MongoConfig.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/MongoCollection.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/Count.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/Aggregate.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/Query.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/MongoEnumValue.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/Field.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/FindOne.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/core-ng-mongo/src/main/java/core/framework/mongo/Get.java">
+</file>
+</checkstyle>

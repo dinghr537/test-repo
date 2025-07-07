@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.monitor.api.MessageAPIValidatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-07-06T08:06:45" hostname="bottleCapsMBA.local" time="0.021">
+  <properties/>
+  <testcase name="addNotNullField()" classname="app.monitor.api.MessageAPIValidatorTest" time="0.007"/>
+  <testcase name="removeNotNullField()" classname="app.monitor.api.MessageAPIValidatorTest" time="0.001"/>
+  <testcase name="renameMessageType()" classname="app.monitor.api.MessageAPIValidatorTest" time="0.001"/>
+  <testcase name="removeTopic()" classname="app.monitor.api.MessageAPIValidatorTest" time="0.001"/>
+  <testcase name="renameTopic()" classname="app.monitor.api.MessageAPIValidatorTest" time="0.009"/>
+  <testcase name="noChange()" classname="app.monitor.api.MessageAPIValidatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

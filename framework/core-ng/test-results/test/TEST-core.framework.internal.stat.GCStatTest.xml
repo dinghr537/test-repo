@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.stat.GCStatTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:08" hostname="bottleCapsMBA.local" time="0.046">
+  <properties/>
+  <testcase name="elapsed()" classname="core.framework.internal.stat.GCStatTest" time="0.041"/>
+  <testcase name="count()" classname="core.framework.internal.stat.GCStatTest" time="0.002"/>
+  <testcase name="collector()" classname="core.framework.internal.stat.GCStatTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

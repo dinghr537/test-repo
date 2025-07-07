@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - HTTPConfigTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>HTTPConfigTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/core.framework.module.html">core.framework.module</a> &gt; HTTPConfigTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.024s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">bean()</td>
+<td class="success">0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">intercept()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">route()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">routeWithReservedPath()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2025-07-02T02:51:10.935130Z [bottleCapsMBA.local] [Test worker] INFO c.f.w.site.WebDirectory - can not locate web directory
+2025-07-02T02:51:10.935310Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/vm, controller=core.framework.internal.web.sys.DiagnosticController.vm
+2025-07-02T02:51:10.935385Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/thread, controller=core.framework.internal.web.sys.DiagnosticController.thread
+2025-07-02T02:51:10.935419Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/heap, controller=core.framework.internal.web.sys.DiagnosticController.heap
+2025-07-02T02:51:10.935475Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/proc, controller=core.framework.internal.web.sys.DiagnosticController.proc
+2025-07-02T02:51:10.935517Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/property, controller=core.framework.internal.web.sys.PropertyController.execute
+2025-07-02T02:51:10.935550Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api, controller=null.execute
+2025-07-02T02:51:10.935574Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/_sys/api/message, controller=null.execute
+2025-07-02T02:51:10.936046Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.HTTPConfig - register bean, class=core.framework.module.HTTPConfigTest.TestBean
+2025-07-02T02:51:10.949063Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.HTTPConfig - register bean, class=core.framework.module.HTTPConfigTest.TestQueryParamBean
+2025-07-02T02:51:10.951407Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.HTTPConfig - register bean, class=core.framework.module.HTTPConfigTest.TestEnum
+2025-07-02T02:51:10.952155Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.HTTPConfig - register bean, class=core.framework.module.HTTPConfigTest.TestBean
+2025-07-02T02:51:10.952876Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.HTTPConfig - register bean, class=core.framework.module.HTTPConfigTest.TestQueryParamBean
+2025-07-02T02:51:10.953450Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.HTTPConfig - register bean, class=core.framework.module.HTTPConfigTest.TestEnum
+2025-07-02T02:51:10.955765Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=GET, path=/route-test, controller=core.framework.module.HTTPConfigTest.TestControllers.get
+2025-07-02T02:51:10.956694Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=POST, path=/route-test, controller=core.framework.module.HTTPConfigTest.TestControllers.post
+2025-07-02T02:51:10.957198Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=PUT, path=/route-test, controller=core.framework.module.HTTPConfigTest.TestController.execute
+2025-07-02T02:51:10.957347Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=DELETE, path=/route-test, controller=core.framework.module.HTTPConfigTest.TestController.execute
+2025-07-02T02:51:10.957783Z [bottleCapsMBA.local] [Test worker] INFO c.f.i.w.route.Route - route, method=PATCH, path=/route-test, controller=core.framework.module.HTTPConfigTest.TestController.execute
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.2.1</a> at Jul. 1, 2025, 7:51:11 p.m.</p>
+</div>
+</div>
+</body>
+</html>

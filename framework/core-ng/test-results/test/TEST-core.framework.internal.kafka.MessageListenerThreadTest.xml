@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.kafka.MessageListenerThreadTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:06" hostname="bottleCapsMBA.local" time="0.266">
+  <properties/>
+  <testcase name="handle()" classname="core.framework.internal.kafka.MessageListenerThreadTest" time="0.248"/>
+  <testcase name="header()" classname="core.framework.internal.kafka.MessageListenerThreadTest" time="0.002"/>
+  <testcase name="handleWithNullKey()" classname="core.framework.internal.kafka.MessageListenerThreadTest" time="0.005"/>
+  <testcase name="messages()" classname="core.framework.internal.kafka.MessageListenerThreadTest" time="0.001"/>
+  <testcase name="shutdown()" classname="core.framework.internal.kafka.MessageListenerThreadTest" time="0.002"/>
+  <testcase name="key()" classname="core.framework.internal.kafka.MessageListenerThreadTest" time="0.001"/>
+  <testcase name="checkConsumerDelay()" classname="core.framework.internal.kafka.MessageListenerThreadTest" time="0.001"/>
+  <testcase name="handleBulk()" classname="core.framework.internal.kafka.MessageListenerThreadTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[2025-07-02T02:51:06.781798Z [bottleCapsMBA.local] [Test worker] ERROR c.f.i.kafka.MessageListenerThread - [LONG_CONSUMER_DELAY] consumer delay is too long, delay=PT486506H51M6.782S
+2025-07-02T02:51:06.782240Z [bottleCapsMBA.local] [Test worker] WARN c.f.i.log.WarningContext - [SLOW_PROCESS] action took longer than of max process time, maxProcessTime=PT0.0003S, elapsed=PT0.000661541S
+2025-07-02T02:51:06.789139Z [bottleCapsMBA.local] [Test worker] ERROR c.f.i.kafka.MessageListenerThread - [LONG_CONSUMER_DELAY] consumer delay is too long, delay=PT486506H51M6.79S
+2025-07-02T02:51:06.789528Z [bottleCapsMBA.local] [Test worker] WARN c.f.i.log.WarningContext - [SLOW_PROCESS] action took longer than of max process time, maxProcessTime=PT0.0003S, elapsed=PT0.000474958S
+2025-07-02T02:51:06.792928Z [bottleCapsMBA.local] [Test worker] ERROR c.f.i.kafka.MessageListenerThread - [LONG_CONSUMER_DELAY] consumer delay is too long, delay=PT486506H51M6.793S
+2025-07-02T02:51:06.799139Z [bottleCapsMBA.local] [Test worker] WARN c.f.i.kafka.MessageListenerThread - [LONG_CONSUMER_DELAY] consumer delay is too long, delay=PT5S
+2025-07-02T02:51:06.799295Z [bottleCapsMBA.local] [Test worker] ERROR c.f.i.kafka.MessageListenerThread - [LONG_CONSUMER_DELAY] consumer delay is too long, delay=PT16M
+2025-07-02T02:51:06.800769Z [bottleCapsMBA.local] [Test worker] ERROR c.f.i.kafka.MessageListenerThread - [LONG_CONSUMER_DELAY] consumer delay is too long, delay=PT486506H51M6.801S
+2025-07-02T02:51:06.800966Z [bottleCapsMBA.local] [Test worker] WARN c.f.i.log.WarningContext - [SLOW_PROCESS] action took longer than of max process time, maxProcessTime=PT0.0003S, elapsed=PT0.000354917S
+]]></system-err>
+</testsuite>

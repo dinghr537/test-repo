@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.redis.RedisListOperationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:08" hostname="bottleCapsMBA.local" time="0.014">
+  <properties/>
+  <testcase name="popWithEmptyList()" classname="core.framework.internal.redis.RedisListOperationTest" time="0.002"/>
+  <testcase name="popSingleElement()" classname="core.framework.internal.redis.RedisListOperationTest" time="0.002"/>
+  <testcase name="pop()" classname="core.framework.internal.redis.RedisListOperationTest" time="0.002"/>
+  <testcase name="push()" classname="core.framework.internal.redis.RedisListOperationTest" time="0.003"/>
+  <testcase name="trim()" classname="core.framework.internal.redis.RedisListOperationTest" time="0.001"/>
+  <testcase name="range()" classname="core.framework.internal.redis.RedisListOperationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.12.1">
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/test/java/core/diagram/service/ActionDiagramTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/test/java/core/diagram/service/ArchDiagramTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/test/java/core/log/TestModule.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/test/java/core/log/ConfigTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/test/java/core/log/kafka/StatMessageHandlerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/test/java/core/log/kafka/EventMessageHandlerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/test/java/core/log/kafka/ActionLogMessageHandlerTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/test/java/core/log/job/CleanupOldIndexJobTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/test/java/core/log/IntegrationTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/test/java/core/log/service/ActionLogForwarderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/test/java/core/log/service/EventForwarderTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/test/java/core/log/service/IndexServiceTest.java">
+</file>
+<file name="/Users/bottlecap/twirlista/core-ng-project/ext/log-processor/src/test/java/core/log/service/KibanaServiceTest.java">
+</file>
+</checkstyle>

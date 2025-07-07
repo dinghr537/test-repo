@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="core.framework.internal.web.controller.WebContextImplTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:09" hostname="bottleCapsMBA.local" time="0.057">
+  <properties/>
+  <testcase name="responseCookie()" classname="core.framework.internal.web.controller.WebContextImplTest" time="0.056"/>
+  <testcase name="get()" classname="core.framework.internal.web.controller.WebContextImplTest" time="0.001"/>
+  <system-out><![CDATA[2025-07-02T02:51:09.816785Z [bottleCapsMBA.local] [kafka-producer-network-thread | log-forwarder] INFO o.a.k.clients.NetworkClient - [Producer clientId=log-forwarder] Node -1 disconnected.
+]]></system-out>
+  <system-err><![CDATA[2025-07-02T02:51:09.816928Z [bottleCapsMBA.local] [kafka-producer-network-thread | log-forwarder] WARN o.a.k.clients.NetworkClient - [Producer clientId=log-forwarder] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2025-07-02T02:51:09.816980Z [bottleCapsMBA.local] [kafka-producer-network-thread | log-forwarder] WARN o.a.k.clients.NetworkClient - [Producer clientId=log-forwarder] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+]]></system-err>
+</testsuite>
