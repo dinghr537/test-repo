@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.internal.web.HTTPIOHandlerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:08" hostname="bottleCapsMBA.local" time="0.282">
-  <properties/>
-  <testcase name="checkContentLength()" classname="core.framework.internal.web.HTTPIOHandlerTest" time="0.281"/>
-  <testcase name="hasBody()" classname="core.framework.internal.web.HTTPIOHandlerTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[2025-07-02T02:51:09.273717Z [bottleCapsMBA.local] [Test worker] WARN c.f.i.web.HTTPIOHandler - content length is too large, requestURL=http://localhost/, contentLength=1001, maxEntitySize=1000
-]]></system-err>
-</testsuite>

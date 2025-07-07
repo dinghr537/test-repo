@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.module.IPv4RangeFileParserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:10" hostname="bottleCapsMBA.local" time="0.003">
-  <properties/>
-  <testcase name="parse()" classname="core.framework.module.IPv4RangeFileParserTest" time="0.003"/>
-  <system-out><![CDATA[2025-07-02T02:51:10.965939Z [bottleCapsMBA.local] [Test worker] INFO c.f.m.IPv4RangeFileParser - load ip range file, classpath=ip-range-test/cidrs.txt
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

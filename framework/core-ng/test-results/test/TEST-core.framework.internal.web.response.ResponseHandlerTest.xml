@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.internal.web.response.ResponseHandlerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:10" hostname="bottleCapsMBA.local" time="0.016">
-  <properties/>
-  <testcase name="cookie()" classname="core.framework.internal.web.response.ResponseHandlerTest" time="0.015"/>
-  <testcase name="cookieKey()" classname="core.framework.internal.web.response.ResponseHandlerTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

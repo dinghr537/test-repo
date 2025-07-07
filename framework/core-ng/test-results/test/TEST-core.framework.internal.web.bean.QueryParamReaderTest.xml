@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.internal.web.bean.QueryParamReaderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:09" hostname="bottleCapsMBA.local" time="0.022">
-  <properties/>
-  <testcase name="sourceCode()" classname="core.framework.internal.web.bean.QueryParamReaderTest" time="0.011"/>
-  <testcase name="fromParams()" classname="core.framework.internal.web.bean.QueryParamReaderTest" time="0.01"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

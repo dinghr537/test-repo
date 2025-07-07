@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.internal.web.site.WebSecurityInterceptorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:10" hostname="bottleCapsMBA.local" time="0.006">
-  <properties/>
-  <testcase name="appendSecurityHeaders()" classname="core.framework.internal.web.site.WebSecurityInterceptorTest" time="0.003"/>
-  <testcase name="redirectURL()" classname="core.framework.internal.web.site.WebSecurityInterceptorTest" time="0.001"/>
-  <testcase name="skipCSP()" classname="core.framework.internal.web.site.WebSecurityInterceptorTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

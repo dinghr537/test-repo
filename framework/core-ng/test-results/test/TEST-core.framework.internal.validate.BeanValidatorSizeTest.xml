@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.internal.validate.BeanValidatorSizeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:08" hostname="bottleCapsMBA.local" time="0.015">
-  <properties/>
-  <testcase name="validate()" classname="core.framework.internal.validate.BeanValidatorSizeTest" time="0.008"/>
-  <testcase name="validateWithoutError()" classname="core.framework.internal.validate.BeanValidatorSizeTest" time="0.006"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

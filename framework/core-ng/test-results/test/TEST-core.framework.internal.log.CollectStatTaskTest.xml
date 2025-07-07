@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.internal.log.CollectStatTaskTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:07" hostname="bottleCapsMBA.local" time="0.036">
-  <properties/>
-  <testcase name="run()" classname="core.framework.internal.log.CollectStatTaskTest" time="0.035"/>
-  <testcase name="message()" classname="core.framework.internal.log.CollectStatTaskTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

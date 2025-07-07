@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.internal.db.MySQLQueryInterceptorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:04" hostname="bottleCapsMBA.local" time="0.132">
-  <properties/>
-  <testcase name="defaultBehavior()" classname="core.framework.internal.db.MySQLQueryInterceptorTest" time="0.13"/>
-  <testcase name="postProcess()" classname="core.framework.internal.db.MySQLQueryInterceptorTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[2025-07-02T02:51:04.955844Z [bottleCapsMBA.local] [Test worker] WARN c.f.i.db.MySQLQueryInterceptor - [SLOW_SQL] bad index used, sql=sql
-]]></system-err>
-</testsuite>

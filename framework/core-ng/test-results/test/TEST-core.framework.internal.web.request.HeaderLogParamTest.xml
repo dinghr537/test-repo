@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.internal.web.request.HeaderLogParamTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:09" hostname="bottleCapsMBA.local" time="0.001">
-  <properties/>
-  <testcase name="append()" classname="core.framework.internal.web.request.HeaderLogParamTest" time="0.0"/>
-  <testcase name="appendWithMask()" classname="core.framework.internal.web.request.HeaderLogParamTest" time="0.0"/>
-  <testcase name="appendWithTruncation()" classname="core.framework.internal.web.request.HeaderLogParamTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

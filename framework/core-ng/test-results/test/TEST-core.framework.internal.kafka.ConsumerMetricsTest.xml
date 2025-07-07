@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.internal.kafka.ConsumerMetricsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:06" hostname="bottleCapsMBA.local" time="0.043">
-  <properties/>
-  <testcase name="sum()" classname="core.framework.internal.kafka.ConsumerMetricsTest" time="0.042"/>
-  <testcase name="collect()" classname="core.framework.internal.kafka.ConsumerMetricsTest" time="0.0"/>
-  <testcase name="statName()" classname="core.framework.internal.kafka.ConsumerMetricsTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

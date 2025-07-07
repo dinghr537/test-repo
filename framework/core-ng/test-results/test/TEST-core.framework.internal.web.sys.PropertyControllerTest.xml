@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.internal.web.sys.PropertyControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:10" hostname="bottleCapsMBA.local" time="0.011">
-  <properties/>
-  <testcase name="execute()" classname="core.framework.internal.web.sys.PropertyControllerTest" time="0.007"/>
-  <testcase name="properties()" classname="core.framework.internal.web.sys.PropertyControllerTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

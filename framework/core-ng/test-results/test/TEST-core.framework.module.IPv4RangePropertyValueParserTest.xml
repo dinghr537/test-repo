@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.module.IPv4RangePropertyValueParserTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:10" hostname="bottleCapsMBA.local" time="0.002">
-  <properties/>
-  <testcase name="parseSemicolonDelimited()" classname="core.framework.module.IPv4RangePropertyValueParserTest" time="0.001"/>
-  <testcase name="parseBlank()" classname="core.framework.module.IPv4RangePropertyValueParserTest" time="0.0"/>
-  <testcase name="parseCommaDelimited()" classname="core.framework.module.IPv4RangePropertyValueParserTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.util.FilesTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:11" hostname="bottleCapsMBA.local" time="0.015">
-  <properties/>
-  <testcase name="tempDir()" classname="core.framework.util.FilesTest" time="0.012"/>
-  <testcase name="tempFile()" classname="core.framework.util.FilesTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
