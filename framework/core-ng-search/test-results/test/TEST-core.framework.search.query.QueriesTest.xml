@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.search.query.QueriesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:41" hostname="bottleCapsMBA.local" time="0.118">
-  <properties/>
-  <testcase name="terms()" classname="core.framework.search.query.QueriesTest" time="0.118"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

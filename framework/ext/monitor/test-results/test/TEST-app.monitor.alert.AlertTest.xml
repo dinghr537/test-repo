@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="app.monitor.alert.AlertTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-06T08:06:45" hostname="bottleCapsMBA.local" time="0.001">
-  <properties/>
-  <testcase name="docURL()" classname="app.monitor.alert.AlertTest" time="0.001"/>
-  <testcase name="severity()" classname="app.monitor.alert.AlertTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.search.impl.ElasticSearchLogInterceptorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:40" hostname="bottleCapsMBA.local" time="0.01">
-  <properties/>
-  <testcase name="bodyParamWithChunkedEntity()" classname="core.framework.search.impl.ElasticSearchLogInterceptorTest" time="0.007"/>
-  <testcase name="bodyParam()" classname="core.framework.search.impl.ElasticSearchLogInterceptorTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

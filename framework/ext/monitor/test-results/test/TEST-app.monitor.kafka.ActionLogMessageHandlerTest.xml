@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="app.monitor.kafka.ActionLogMessageHandlerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-06T08:06:45" hostname="bottleCapsMBA.local" time="0.03">
-  <properties/>
-  <testcase name="handle()" classname="app.monitor.kafka.ActionLogMessageHandlerTest" time="0.026"/>
-  <testcase name="handleSelfAction()" classname="app.monitor.kafka.ActionLogMessageHandlerTest" time="0.001"/>
-  <testcase name="handleOKAction()" classname="app.monitor.kafka.ActionLogMessageHandlerTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

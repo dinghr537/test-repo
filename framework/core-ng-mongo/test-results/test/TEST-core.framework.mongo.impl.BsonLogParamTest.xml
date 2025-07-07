@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.mongo.impl.BsonLogParamTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:19" hostname="bottleCapsMBA.local" time="0.02">
-  <properties/>
-  <testcase name="append()" classname="core.framework.mongo.impl.BsonLogParamTest" time="0.007"/>
-  <testcase name="logValue()" classname="core.framework.mongo.impl.BsonLogParamTest" time="0.012"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

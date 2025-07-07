@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.log.kafka.EventMessageHandlerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-06T08:06:36" hostname="bottleCapsMBA.local" time="0.22">
-  <properties/>
-  <testcase name="index()" classname="core.log.kafka.EventMessageHandlerTest" time="0.22"/>
-  <system-out><![CDATA[2025-07-06T08:06:36.773330Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.metadata.MetadataCreateIndexService - [event-2019.03.19] creating index, cause [auto(bulk api)], templates [event], shards [1]/[1]
-2025-07-06T08:06:36.933672Z [bottleCapsMBA.local] [elasticsearch[test][masterService#updateTask][T#1]] INFO o.e.c.metadata.MetadataMappingService - [event-2019.03.19/bO7zJ9MiS7ySNxceAehiMg] update_mapping [_doc]
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

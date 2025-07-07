@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.framework.mongo.impl.MongoClassValidatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:51:20" hostname="bottleCapsMBA.local" time="0.012">
-  <properties/>
-  <testcase name="validateViewClass()" classname="core.framework.mongo.impl.MongoClassValidatorTest" time="0.002"/>
-  <testcase name="validateEntityClass()" classname="core.framework.mongo.impl.MongoClassValidatorTest" time="0.002"/>
-  <testcase name="validateViewClassWithJSONAnnotation()" classname="core.framework.mongo.impl.MongoClassValidatorTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

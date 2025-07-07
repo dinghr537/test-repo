@@ -1,8 +1,0 @@
-/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/classes/java/main/core/framework/search/impl/ESLoggerConfigFactory$2.class
-/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/classes/java/main/core/framework/search/impl/ESLoggerConfigFactory.class
-/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/classes/java/main/core/framework/search/impl/LocalElasticSearch.class
-/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/classes/java/main/core/framework/search/impl/ESLoggerConfigFactory$1.class
-/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/classes/java/main/core/framework/search/impl/LocalNode.class
-/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/classes/java/main/core/framework/search/module/InitSearchConfig.class
-/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/classes/java/main/core/framework/search/module/TestSearchConfig.class
-/Users/bottlecap/twirlista/core-ng-project/build/core-ng-search-test/classes/java/main/org/elasticsearch/plugins/LocalPluginsService.class

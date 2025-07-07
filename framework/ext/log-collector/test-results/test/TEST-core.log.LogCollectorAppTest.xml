@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.log.LogCollectorAppTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-07-06T08:06:16" hostname="bottleCapsMBA.local" time="0.014">
-  <properties/>
-  <testcase name="allowedOrigins()" classname="core.log.LogCollectorAppTest" time="0.012"/>
-  <testcase name="collectCookies()" classname="core.log.LogCollectorAppTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

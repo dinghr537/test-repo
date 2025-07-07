@@ -1,8 +1,0 @@
-/Users/bottlecap/twirlista/core-ng-project/build/ext/log-collector/classes/java/main/core/log/LogCollectorApp.class
-/Users/bottlecap/twirlista/core-ng-project/build/ext/log-collector/classes/java/main/core/log/web/SendEventRequestValidator.class
-/Users/bottlecap/twirlista/core-ng-project/build/ext/log-collector/classes/java/main/core/log/web/SendEventRequest$Event.class
-/Users/bottlecap/twirlista/core-ng-project/build/ext/log-collector/classes/java/main/core/log/web/SendEventRequest$Result.class
-/Users/bottlecap/twirlista/core-ng-project/build/ext/log-collector/classes/java/main/core/log/web/EventController.class
-/Users/bottlecap/twirlista/core-ng-project/build/ext/log-collector/classes/java/main/core/log/web/Cookie.class
-/Users/bottlecap/twirlista/core-ng-project/build/ext/log-collector/classes/java/main/core/log/web/SendEventRequest.class
-/Users/bottlecap/twirlista/core-ng-project/build/ext/log-collector/classes/java/main/Main.class

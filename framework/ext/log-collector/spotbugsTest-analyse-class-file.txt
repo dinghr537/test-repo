@@ -1,6 +1,0 @@
-/Users/bottlecap/twirlista/core-ng-project/build/ext/log-collector/classes/java/test/core/log/web/SendEventRequestValidatorTest.class
-/Users/bottlecap/twirlista/core-ng-project/build/ext/log-collector/classes/java/test/core/log/web/EventControllerTest.class
-/Users/bottlecap/twirlista/core-ng-project/build/ext/log-collector/classes/java/test/core/log/ConfigTest.class
-/Users/bottlecap/twirlista/core-ng-project/build/ext/log-collector/classes/java/test/core/log/TestModule.class
-/Users/bottlecap/twirlista/core-ng-project/build/ext/log-collector/classes/java/test/core/log/IntegrationTest.class
-/Users/bottlecap/twirlista/core-ng-project/build/ext/log-collector/classes/java/test/core/log/LogCollectorAppTest.class

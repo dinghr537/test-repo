@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="core.log.kafka.ActionLogMessageHandlerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-06T08:06:22" hostname="bottleCapsMBA.local" time="0.046">
-  <properties/>
-  <testcase name="handle()" classname="core.log.kafka.ActionLogMessageHandlerTest" time="0.046"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
